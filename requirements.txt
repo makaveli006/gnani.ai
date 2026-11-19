@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+matplotlib
+requests
+python-dotenv
+soundfile
+sounddevice
+faster-whisper
+speechmos
+pytest
