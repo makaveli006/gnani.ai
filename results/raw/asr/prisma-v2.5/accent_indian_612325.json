@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-44f8-7248-b752-1f456b8571f8",
+  "transcript": "i never stole a watch in my life",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10018420219421387,
+  "end_to_end_latency": 0.10620570182800293,
+  "output": {
+    "literal": "i never stole a watch in my life"
+  },
+  "http_status": 200,
+  "client_latency": 0.325
+}

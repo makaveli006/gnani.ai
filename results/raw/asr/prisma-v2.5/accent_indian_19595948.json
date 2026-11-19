@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-34d4-74c8-936f-e1ce1fdaabde",
+  "transcript": "the film screened on the 1st anniversary of the disaster",
+  "model": "prisma-v2.5",
+  "processing_time": 0.18663644790649414,
+  "end_to_end_latency": 0.1968555450439453,
+  "output": {
+    "literal": "the film screened on the first anniversary of the disaster"
+  },
+  "http_status": 200,
+  "client_latency": 0.493
+}

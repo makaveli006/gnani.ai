@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-7f34-70a7-9dbf-6dd95a7857d4",
+  "transcript": "you got 50 cents",
+  "model": "prisma-v2.5",
+  "processing_time": 0.057862281799316406,
+  "end_to_end_latency": 0.06333136558532715,
+  "output": {
+    "literal": "you got fifty cents"
+  },
+  "http_status": 200,
+  "client_latency": 0.367
+}

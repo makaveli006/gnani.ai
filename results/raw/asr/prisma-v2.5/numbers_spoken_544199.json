@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6a4e-7a6c-a66a-5491e4bbf8f9",
+  "transcript": "the train came 13 minutes late",
+  "model": "prisma-v2.5",
+  "processing_time": 0.0640101432800293,
+  "end_to_end_latency": 0.06992411613464355,
+  "output": {
+    "literal": "the train came thirteen minutes late"
+  },
+  "http_status": 200,
+  "client_latency": 0.713
+}

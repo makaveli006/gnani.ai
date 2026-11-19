@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-9889-7305-a2d9-48689ea1657d",
+  "transcript": "matthew mcconaughey is an american actor",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12837529182434082,
+  "end_to_end_latency": 0.13382983207702637,
+  "output": {
+    "literal": "matthew mcconaughey is an american actor"
+  },
+  "http_status": 200,
+  "client_latency": 0.395
+}

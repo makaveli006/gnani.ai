@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-b98e-72e5-87b9-01465a4c269d",
+  "transcript": "my friend's temper had not improved since he had been deprived of the congenial surroundings of baker street",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14331960678100586,
+  "end_to_end_latency": 0.15808606147766113,
+  "output": {
+    "literal": "my friend's temper had not improved since he had been deprived of the congenial surroundings of baker street"
+  },
+  "http_status": 200,
+  "client_latency": 0.547
+}

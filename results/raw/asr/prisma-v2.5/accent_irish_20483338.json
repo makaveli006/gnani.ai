@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-d533-7b95-a28f-d213cb020d2b",
+  "transcript": "these animals seem to prefer cooler temperatures",
+  "model": "prisma-v2.5",
+  "processing_time": 0.07541275024414062,
+  "end_to_end_latency": 0.08800888061523438,
+  "output": {
+    "literal": "these animals seem to prefer cooler temperatures"
+  },
+  "http_status": 200,
+  "client_latency": 0.718
+}

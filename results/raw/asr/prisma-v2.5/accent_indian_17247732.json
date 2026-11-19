@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-2950-7433-b207-e326cdbd97ff",
+  "transcript": "in my opinion you went too far with your satire poem",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13733267784118652,
+  "end_to_end_latency": 0.14617156982421875,
+  "output": {
+    "literal": "in my opinion you went too far with your satire poem"
+  },
+  "http_status": 200,
+  "client_latency": 0.699
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6355-79b1-801e-f2af457f3503",
+  "transcript": "no",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09875249862670898,
+  "end_to_end_latency": 0.10335659980773926,
+  "output": {
+    "literal": "no"
+  },
+  "http_status": 200,
+  "client_latency": 0.415
+}

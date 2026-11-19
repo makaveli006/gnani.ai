@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-d50f-703b-9538-004443aec115",
+  "transcript": "several close horses a pillion a spinning wheel and an old box wide open and stuffed full of colored rags",
+  "model": "prisma-v2.5",
+  "processing_time": 0.17929744720458984,
+  "end_to_end_latency": 0.1970653533935547,
+  "output": {
+    "literal": "several close horses a pillion a spinning wheel and an old box wide open and stuffed full of colored rags"
+  },
+  "http_status": 200,
+  "client_latency": 0.726
+}

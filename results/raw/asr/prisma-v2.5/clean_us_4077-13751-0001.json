@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-a6b8-7d05-ba15-dec5532ddca6",
+  "transcript": "its origin was small a germ an insignificant seed hardly to be thought of as likely to arouse opposition",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09867620468139648,
+  "end_to_end_latency": 0.13211464881896973,
+  "output": {
+    "literal": "its origin was small a germ an insignificant seed hardly to be thought of as likely to arouse opposition"
+  },
+  "http_status": 200,
+  "client_latency": 0.489
+}

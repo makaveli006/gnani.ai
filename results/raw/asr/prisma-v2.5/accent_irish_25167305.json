@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-d69f-7989-9278-1191d0efd1e6",
+  "transcript": "once a year the pool is closed for several weeks for more extensive cleaning",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1557624340057373,
+  "end_to_end_latency": 0.16593194007873535,
+  "output": {
+    "literal": "once a year the pool is closed for several weeks for more extensive cleaning"
+  },
+  "http_status": 200,
+  "client_latency": 0.459
+}

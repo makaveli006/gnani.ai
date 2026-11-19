@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-9f8f-7eee-bbbd-f26c13d5a569",
+  "transcript": "the paris plant like that of the crystal palace was a temporary exhibit",
+  "model": "prisma-v2.5",
+  "processing_time": 0.0886087417602539,
+  "end_to_end_latency": 0.0978541374206543,
+  "output": {
+    "literal": "the paris plant like that of the crystal palace was a temporary exhibit"
+  },
+  "http_status": 200,
+  "client_latency": 0.824
+}

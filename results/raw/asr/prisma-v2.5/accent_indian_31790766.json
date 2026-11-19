@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-0d39-7d54-b330-845c1261f9e7",
+  "transcript": "the story is told in the 1st person by an unnamed narrator",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15230131149291992,
+  "end_to_end_latency": 0.16621923446655273,
+  "output": {
+    "literal": "the story is told in the first person by an unnamed narrator"
+  },
+  "http_status": 200,
+  "client_latency": 0.474
+}

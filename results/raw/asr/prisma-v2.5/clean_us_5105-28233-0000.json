@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-ab22-74bb-9fed-04b3c1ef1f51",
+  "transcript": "length of service 14 years three months and five days",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12697672843933105,
+  "end_to_end_latency": 0.1374225616455078,
+  "output": {
+    "literal": "length of service fourteen years three months and five days"
+  },
+  "http_status": 200,
+  "client_latency": 1.107
+}

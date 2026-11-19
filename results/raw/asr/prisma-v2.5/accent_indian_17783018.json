@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-2d61-775b-bdcc-acec6718df75",
+  "transcript": "take care of the pins and the pounds will take care of themselves",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15975570678710938,
+  "end_to_end_latency": 0.16856980323791504,
+  "output": {
+    "literal": "take care of the pins and the pounds will take care of themselves"
+  },
+  "http_status": 200,
+  "client_latency": 1.45
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-22e9-79d6-8dfc-d3aa1f5b315f",
+  "transcript": "she is low down on a list of concerns at the moment",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1158134937286377,
+  "end_to_end_latency": 0.1250629425048828,
+  "output": {
+    "literal": "she is low down on a list of concerns at the moment"
+  },
+  "http_status": 200,
+  "client_latency": 0.812
+}

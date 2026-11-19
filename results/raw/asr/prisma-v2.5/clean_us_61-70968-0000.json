@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-b115-7f08-b76f-2a25a8e9c0da",
+  "transcript": "he began a confused complaint against the wizard who had vanished behind the curtain on the left",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14228010177612305,
+  "end_to_end_latency": 0.16512084007263184,
+  "output": {
+    "literal": "he began a confused complaint against the wizard who had vanished behind the curtain on the left"
+  },
+  "http_status": 200,
+  "client_latency": 0.546
+}

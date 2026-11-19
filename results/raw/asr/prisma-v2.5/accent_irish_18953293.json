@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-bba7-7d63-9c86-899fa2b038fa",
+  "transcript": "but you can't bring in a new president now in this time",
+  "model": "prisma-v2.5",
+  "processing_time": 0.08014392852783203,
+  "end_to_end_latency": 0.08825016021728516,
+  "output": {
+    "literal": "but you can't bring in a new president now in this time"
+  },
+  "http_status": 200,
+  "client_latency": 0.465
+}

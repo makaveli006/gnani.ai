@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-147e-7dc1-9d39-5494f65c7bd5",
+  "transcript": "back to our original plan i think",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12629413604736328,
+  "end_to_end_latency": 0.13280224800109863,
+  "output": {
+    "literal": "back to our original plan i think"
+  },
+  "http_status": 200,
+  "client_latency": 0.37
+}

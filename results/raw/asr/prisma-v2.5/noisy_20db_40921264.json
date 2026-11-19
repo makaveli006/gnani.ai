@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-dbbe-77b0-ad30-bd578e91e2ce",
+  "transcript": "he did not play in the world series but received a ring regardless",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1481029987335205,
+  "end_to_end_latency": 0.1672966480255127,
+  "output": {
+    "literal": "he did not play in the world series but received a ring regardless"
+  },
+  "http_status": 200,
+  "client_latency": 0.564
+}

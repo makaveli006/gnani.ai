@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-12d9-724e-931c-f34725ae9533",
+  "transcript": "these training sessions spread the pioneer scouts across the region",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1477046012878418,
+  "end_to_end_latency": 0.15988826751708984,
+  "output": {
+    "literal": "these training sessions spread the pioneer scouts across the region"
+  },
+  "http_status": 200,
+  "client_latency": 0.529
+}

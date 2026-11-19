@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-af1e-7eb2-8ede-809322c5e8a2",
+  "transcript": "finally the one party went off exalting and the other was left in desolation and woe",
+  "model": "prisma-v2.5",
+  "processing_time": 0.143341064453125,
+  "end_to_end_latency": 0.16072392463684082,
+  "output": {
+    "literal": "finally the one party went off exalting and the other was left in desolation and woe"
+  },
+  "http_status": 200,
+  "client_latency": 1.027
+}

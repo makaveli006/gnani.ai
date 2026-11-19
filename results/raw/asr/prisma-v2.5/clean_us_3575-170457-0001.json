@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-df6f-7933-9377-fa07b7f502ee",
+  "transcript": "why are we to be denied each other's society",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10760736465454102,
+  "end_to_end_latency": 0.12200212478637695,
+  "output": {
+    "literal": "why are we to be denied each other's society"
+  },
+  "http_status": 200,
+  "client_latency": 0.832
+}

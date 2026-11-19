@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-c0c9-7467-b0f4-6b63ed71d791",
+  "transcript": "but we never even got close to it",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09770941734313965,
+  "end_to_end_latency": 0.10458612442016602,
+  "output": {
+    "literal": "but we never even got close to it"
+  },
+  "http_status": 200,
+  "client_latency": 0.46
+}

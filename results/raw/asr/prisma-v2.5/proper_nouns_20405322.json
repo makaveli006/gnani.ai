@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-9ca8-747d-80d6-6859fc71752f",
+  "transcript": "the reservoirs are managed by water supplier departments of hong kong government",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10059213638305664,
+  "end_to_end_latency": 0.11216330528259277,
+  "output": {
+    "literal": "the reservoirs are managed by water supplier departments of hong kong government"
+  },
+  "http_status": 200,
+  "client_latency": 0.475
+}

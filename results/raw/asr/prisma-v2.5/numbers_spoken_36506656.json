@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-8a55-78f0-8a80-6a1bb8995543",
+  "transcript": "they had two children and five grandchildren",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10788798332214355,
+  "end_to_end_latency": 0.11451864242553711,
+  "output": {
+    "literal": "they had two children and five grandchildren"
+  },
+  "http_status": 200,
+  "client_latency": 0.77
+}

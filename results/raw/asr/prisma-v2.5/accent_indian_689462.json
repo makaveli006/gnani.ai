@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-1866-721f-b22e-9c35e2264380",
+  "transcript": "is there a history of heart disease in your family",
+  "model": "prisma-v2.5",
+  "processing_time": 0.05983257293701172,
+  "end_to_end_latency": 0.06730532646179199,
+  "output": {
+    "literal": "is there a history of heart disease in your family"
+  },
+  "http_status": 200,
+  "client_latency": 0.43
+}

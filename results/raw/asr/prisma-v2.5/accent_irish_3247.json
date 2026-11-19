@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-d9d1-712f-ad03-4a708ab2dfeb",
+  "transcript": "when you find a broken software please report it",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10289216041564941,
+  "end_to_end_latency": 0.10973000526428223,
+  "output": {
+    "literal": "when you find a broken software please report it"
+  },
+  "http_status": 200,
+  "client_latency": 0.382
+}

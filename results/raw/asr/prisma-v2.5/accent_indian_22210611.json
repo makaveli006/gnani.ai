@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-4656-7c6b-88ed-158beadd0224",
+  "transcript": "republicans are no less dominant at the state level",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13866567611694336,
+  "end_to_end_latency": 0.14666461944580078,
+  "output": {
+    "literal": "republicans are no less dominant at the state level"
+  },
+  "http_status": 200,
+  "client_latency": 0.393
+}

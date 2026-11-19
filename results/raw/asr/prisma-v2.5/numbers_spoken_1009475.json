@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-85cc-7eec-b458-e213a77f6b5a",
+  "transcript": "she bought three cordfishes to cook for dinner",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13011598587036133,
+  "end_to_end_latency": 0.13852763175964355,
+  "output": {
+    "literal": "she bought three cordfishes to cook for dinner"
+  },
+  "http_status": 200,
+  "client_latency": 1.241
+}

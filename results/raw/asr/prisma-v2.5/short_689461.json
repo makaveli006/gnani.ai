@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-4d65-723e-881b-e35b79820dfd",
+  "transcript": "what is today",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14316391944885254,
+  "end_to_end_latency": 0.1518409252166748,
+  "output": {
+    "literal": "what is today"
+  },
+  "http_status": 200,
+  "client_latency": 1.46
+}

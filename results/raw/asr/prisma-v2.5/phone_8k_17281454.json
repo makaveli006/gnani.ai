@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-177d-73f0-a499-98099b8aa3db",
+  "transcript": "is it possible if you would be so kind to lend me your brolly for today",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14449834823608398,
+  "end_to_end_latency": 0.16121578216552734,
+  "output": {
+    "literal": "is it possible if you would be so kind to lend me your brolly for today"
+  },
+  "http_status": 200,
+  "client_latency": 0.427
+}

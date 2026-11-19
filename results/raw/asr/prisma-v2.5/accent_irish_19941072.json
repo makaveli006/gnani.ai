@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-af76-7a53-ae83-c4eae50a7410",
+  "transcript": "wise and london translated into english two well known french texts on gardening",
+  "model": "prisma-v2.5",
+  "processing_time": 0.22838401794433594,
+  "end_to_end_latency": 0.24616265296936035,
+  "output": {
+    "literal": "wise and london translated into english two well known french texts on gardening"
+  },
+  "http_status": 200,
+  "client_latency": 4.05
+}

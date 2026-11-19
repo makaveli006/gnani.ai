@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-9670-7198-945d-1d0b08df94ab",
+  "transcript": "they were neighbours and the friends of lu costello of the abbott and costello duo",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16417264938354492,
+  "end_to_end_latency": 0.1744844913482666,
+  "output": {
+    "literal": "they were neighbours and the friends of lu costello of the abbott and costello duo"
+  },
+  "http_status": 200,
+  "client_latency": 0.55
+}

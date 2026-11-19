@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-1982-7c28-acba-2b5da05fb48e",
+  "transcript": "the facts don't always show who is right",
+  "model": "prisma-v2.5",
+  "processing_time": 0.0863182544708252,
+  "end_to_end_latency": 0.09238743782043457,
+  "output": {
+    "literal": "the facts don't always show who is right"
+  },
+  "http_status": 200,
+  "client_latency": 0.456
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-2617-713b-ada3-76857e36934b",
+  "transcript": "slow down a list for the same moments",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1140296459197998,
+  "end_to_end_latency": 0.12108492851257324,
+  "output": {
+    "literal": "slow down a list for the same moments"
+  },
+  "http_status": 200,
+  "client_latency": 0.4
+}

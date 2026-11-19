@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-b1d9-705f-be56-662540ef07d4",
+  "transcript": "it also accounts for most of the mass of all visible matter",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14228129386901855,
+  "end_to_end_latency": 0.15083575248718262,
+  "output": {
+    "literal": "it also accounts for most of the mass of all visible matter"
+  },
+  "http_status": 200,
+  "client_latency": 1.126
+}

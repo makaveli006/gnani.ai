@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-ffb2-7278-b59b-c0a353d354ca",
+  "transcript": "it was nice talking with you",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14107823371887207,
+  "end_to_end_latency": 0.1466236114501953,
+  "output": {
+    "literal": "it was nice talking with you"
+  },
+  "http_status": 200,
+  "client_latency": 0.791
+}

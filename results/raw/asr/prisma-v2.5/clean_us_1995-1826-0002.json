@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-ee29-768e-ba55-fe068329e932",
+  "transcript": "john taylor who had supported her through college was interested in cotton",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1753993034362793,
+  "end_to_end_latency": 0.18398737907409668,
+  "output": {
+    "literal": "john taylor who had supported her through college was interested in cotton"
+  },
+  "http_status": 200,
+  "client_latency": 0.557
+}

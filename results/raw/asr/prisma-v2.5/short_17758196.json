@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-509a-76c5-9fbc-8562b65083f5",
+  "transcript": "forewarned is forearmed",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12623882293701172,
+  "end_to_end_latency": 0.13083505630493164,
+  "output": {
+    "literal": "forewarned is forearmed"
+  },
+  "http_status": 200,
+  "client_latency": 1.171
+}

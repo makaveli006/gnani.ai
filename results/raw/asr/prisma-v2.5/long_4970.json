@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-eac7-731a-923e-20b0bf5bccdf",
+  "transcript": "to the young american here or elsewhere the paths to fortune are innumerable and all open there is invitation in the air and success in all his wide horizon he has no traditions to bind him or guide him and his impulse is to break away from the occupation his father has followed and make a new way for himself",
+  "model": "prisma-v2.5",
+  "processing_time": 0.29090428352355957,
+  "end_to_end_latency": 0.5182914733886719,
+  "output": {
+    "literal": "to the young american here or elsewhere the paths to fortune are innumerable and all open there is invitation in the air and success in all his wide horizon he has no traditions to bind him or guide him and his impulse is to break away from the occupation his father has followed  and make a new way for himself"
+  },
+  "http_status": 200,
+  "client_latency": 0.997
+}

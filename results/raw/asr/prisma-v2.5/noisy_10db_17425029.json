@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-03a7-7b9d-a693-df8937bfa780",
+  "transcript": "jellyfish can cause serious injuries the physician explained to the patient",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1099691390991211,
+  "end_to_end_latency": 0.1192178726196289,
+  "output": {
+    "literal": "jellyfish can cause serious injuries the physician explained to the patient"
+  },
+  "http_status": 200,
+  "client_latency": 0.444
+}

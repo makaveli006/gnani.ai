@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-924d-770e-9691-9da24896dc55",
+  "transcript": "the golden boot was worn by argentina's carlos stevens",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10357856750488281,
+  "end_to_end_latency": 0.11180877685546875,
+  "output": {
+    "literal": "the golden boot was worn by argentina's carlos stevens"
+  },
+  "http_status": 200,
+  "client_latency": 0.76
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-3f05-7537-8782-8e03410eb352",
+  "transcript": "maddox uses this image as a parody of the revolutionary icon",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16774487495422363,
+  "end_to_end_latency": 0.1770932674407959,
+  "output": {
+    "literal": "maddox uses this image as a parody of the revolutionary icon"
+  },
+  "http_status": 200,
+  "client_latency": 2.031
+}

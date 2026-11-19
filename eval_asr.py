@@ -69,32 +69,30 @@ def substitutions(ref, hyp):
     return pairs
 
 
+def corpus_wer(d):
+    # total errors / total reference words (long sentences count more)
+    return (d["sub"].sum() + d["del"].sum() + d["ins"].sum()) / max(d.ref_words.sum(), 1)
+
+
+def summary_row(name, d):
+    empty = d.hypothesis.fillna("") == ""
+    return {
+        "category": name,
+        "clips": len(d),
+        "words": d.ref_words.sum(),
+        "WER": round(corpus_wer(d), 3),
+        "CER": round(d.char_errors.sum() / d.ref_chars.sum(), 3),
+        "WER_non_empty": round(corpus_wer(d[~empty]), 3),
+        "sub": d["sub"].sum(), "del": d["del"].sum(), "ins": d["ins"].sum(),
+        "perfect_clips": int((d.wer == 0).sum()),
+        "empty_transcripts": int(empty.sum()),
+        "avg_latency_s": round(d.latency.mean(), 2),
+    }
+
+
 def summarize(df):
-    rows = []
-    for cat in [c for c in ORDER if c in set(df.category)]:
-        d = df[df.category == cat]
-        errors = d["sub"].sum() + d["del"].sum() + d["ins"].sum()
-        rows.append({
-            "category": cat,
-            "clips": len(d),
-            "words": d.ref_words.sum(),
-            "WER": round(errors / d.ref_words.sum(), 3),
-            "CER": round(d.char_errors.sum() / d.ref_chars.sum(), 3),
-            "sub": d["sub"].sum(), "del": d["del"].sum(), "ins": d["ins"].sum(),
-            "perfect_clips": int((d.wer == 0).sum()),
-            "empty_transcripts": int((d.hypothesis.fillna("") == "").sum()),
-            "avg_latency_s": round(d.latency.mean(), 2),
-        })
-    errors = df["sub"].sum() + df["del"].sum() + df["ins"].sum()
-    rows.append({
-        "category": "ALL", "clips": len(df), "words": df.ref_words.sum(),
-        "WER": round(errors / df.ref_words.sum(), 3),
-        "CER": round(df.char_errors.sum() / df.ref_chars.sum(), 3),
-        "sub": df["sub"].sum(), "del": df["del"].sum(), "ins": df["ins"].sum(),
-        "perfect_clips": int((df.wer == 0).sum()),
-        "empty_transcripts": int((df.hypothesis.fillna("") == "").sum()),
-        "avg_latency_s": round(df.latency.mean(), 2),
-    })
+    rows = [summary_row(cat, df[df.category == cat]) for cat in ORDER if cat in set(df.category)]
+    rows.append(summary_row("ALL", df))
     return pd.DataFrame(rows)
 
 
@@ -109,11 +107,16 @@ def main():
     if args.limit:
         clips = clips[: args.limit]
 
-    results = []
+    results, failures = [], []
     for i, clip in enumerate(clips, 1):
         res = transcribe(clip["wav_path"], clip["id"], model=args.model)
         if not res.get("success"):
-            print(f"[{i}/{len(clips)}] {clip['id']} FAILED: {res.get('error')}")
+            error = str(res.get("error"))
+            if "<html" in error.lower() or "<!doctype" in error.lower():
+                error = "HTML error page (blocked by firewall)"
+            print(f"[{i}/{len(clips)}] {clip['id']} FAILED: {res.get('http_status')} {error[:80]}")
+            failures.append({"id": clip["id"], "category": clip["category"],
+                             "http_status": res.get("http_status"), "error": error[:200]})
             continue
 
         # 'literal' is spoken form ("twenty three"), same style as our references
@@ -136,6 +139,8 @@ def main():
     df = pd.DataFrame(results)
     Path("results").mkdir(exist_ok=True)
     df.to_csv(f"results/asr_results_{model_name}.csv", index=False)
+    pd.DataFrame(failures, columns=["id", "category", "http_status", "error"]).to_csv(
+        f"results/asr_failures_{model_name}.csv", index=False)
 
     summary = summarize(df)
     summary.to_csv(f"results/asr_by_category_{model_name}.csv", index=False)

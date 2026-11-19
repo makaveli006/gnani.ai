@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6011-7c92-b254-da41e946646a",
+  "transcript": "the shot missed",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12515830993652344,
+  "end_to_end_latency": 0.1303255558013916,
+  "output": {
+    "literal": "the shot missed"
+  },
+  "http_status": 200,
+  "client_latency": 1.895
+}

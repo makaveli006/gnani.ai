@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-f9c9-7ff0-abef-c8d8120b50c5",
+  "transcript": "each player always plays the same set of cards",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13845062255859375,
+  "end_to_end_latency": 0.16514062881469727,
+  "output": {
+    "literal": "each player always plays the same set of cards"
+  },
+  "http_status": 200,
+  "client_latency": 0.46
+}

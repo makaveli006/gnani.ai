@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6cfb-7231-a7dc-3509f1b80d7d",
+  "transcript": "i had had this shop for 30 years",
+  "model": "prisma-v2.5",
+  "processing_time": 0.11579298973083496,
+  "end_to_end_latency": 0.12297964096069336,
+  "output": {
+    "literal": "i had had this shop for thirty years"
+  },
+  "http_status": 200,
+  "client_latency": 0.364
+}

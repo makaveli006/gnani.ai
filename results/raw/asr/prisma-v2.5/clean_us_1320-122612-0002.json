@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-9d5f-7221-b3c0-001623adc8dd",
+  "transcript": "after proceeding a few miles the progress of hawkeye who led the advance became more deliberate and watchful",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13604116439819336,
+  "end_to_end_latency": 0.15337347984313965,
+  "output": {
+    "literal": "after proceeding a few miles the progress of hawkeye who led the advance became more deliberate and watchful"
+  },
+  "http_status": 200,
+  "client_latency": 0.542
+}

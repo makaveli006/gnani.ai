@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-1a16-78e4-abe1-a8f748a63c16",
+  "transcript": "maybe tomorrow said the boy moving away",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12502050399780273,
+  "end_to_end_latency": 0.13064026832580566,
+  "output": {
+    "literal": "maybe tomorrow said the boy moving away"
+  },
+  "http_status": 200,
+  "client_latency": 0.486
+}

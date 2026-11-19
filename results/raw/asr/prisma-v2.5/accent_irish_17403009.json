@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-c71f-7fb0-83aa-1a333e337755",
+  "transcript": "every cloud has a silver lining",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1278214454650879,
+  "end_to_end_latency": 0.13351798057556152,
+  "output": {
+    "literal": "every cloud has a silver lining"
+  },
+  "http_status": 200,
+  "client_latency": 0.397
+}

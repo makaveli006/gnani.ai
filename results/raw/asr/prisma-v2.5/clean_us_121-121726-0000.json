@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-b320-778f-a227-9156af57c7ff",
+  "transcript": "also a popular contrivance whereby love making may be suspended but not stopped during the picnic season",
+  "model": "prisma-v2.5",
+  "processing_time": 0.21227693557739258,
+  "end_to_end_latency": 0.22873973846435547,
+  "output": {
+    "literal": "also a popular contrivance whereby love making may be suspended but not stopped during the picnic season"
+  },
+  "http_status": 200,
+  "client_latency": 0.533
+}

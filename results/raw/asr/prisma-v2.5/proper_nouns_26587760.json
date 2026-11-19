@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-945c-7ba7-af12-2bd02bf9a0fa",
+  "transcript": "eric sachbal now teaches history at crestword high school in dearborn heights michigan",
+  "model": "prisma-v2.5",
+  "processing_time": 0.18145036697387695,
+  "end_to_end_latency": 0.20108246803283691,
+  "output": {
+    "literal": "eric sachbal now teaches history at crestword high school in dearborn heights michigan"
+  },
+  "http_status": 200,
+  "client_latency": 0.64
+}

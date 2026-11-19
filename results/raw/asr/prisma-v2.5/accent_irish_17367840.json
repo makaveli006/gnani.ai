@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-d06c-7ad2-a3c6-a491464fb7e2",
+  "transcript": "why are you doing this",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1101677417755127,
+  "end_to_end_latency": 0.11585569381713867,
+  "output": {
+    "literal": "why are you doing this"
+  },
+  "http_status": 200,
+  "client_latency": 0.669
+}

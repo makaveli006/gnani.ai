@@ -41,7 +41,8 @@ def test_cer():
 
 def test_normalize():
     assert normalize("Twenty-Three  Rupees.") == "twenty three rupees"
-    assert normalize("don't stop") == "don't stop"
+    assert normalize("I'm here, don't stop") == "i am here do not stop"
+    assert normalize("the boys' ball") == "the boys ball"
 
 
 def test_matches_jiwer():

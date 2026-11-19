@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-e407-782b-a1b5-8843edc1ef48",
+  "transcript": "mainhall liked alexander because he was an engineer he had preconceived ideas about everything and his idea about americans was that they should be engineers or mechanics it's tremendously well put on too it's been on only two weeks and i've been 1/2 a dozen times already",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13764524459838867,
+  "end_to_end_latency": 0.23785614967346191,
+  "output": {
+    "literal": "mainhall liked alexander because he was an engineer he had preconceived ideas about everything and his idea about americans was that they should be engineers or mechanics it's tremendously well put on too it's been on only two weeks and i've been half a dozen times already"
+  },
+  "http_status": 200,
+  "client_latency": 0.701
+}

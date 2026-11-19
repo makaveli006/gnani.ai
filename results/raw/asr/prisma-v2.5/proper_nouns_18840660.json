@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-9e5e-7e8e-90c3-f9e34bce0102",
+  "transcript": "the hawk of kerish was also adopted as the federation's code of arms",
+  "model": "prisma-v2.5",
+  "processing_time": 0.19639801979064941,
+  "end_to_end_latency": 0.2063581943511963,
+  "output": {
+    "literal": "the hawk of kerish was also adopted as the federation's code of arms"
+  },
+  "http_status": 200,
+  "client_latency": 0.513
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-1646-7a34-92bb-a103a8ac438e",
+  "transcript": "the training area was used by troops who were deployed to the vietnam war",
+  "model": "prisma-v2.5",
+  "processing_time": 0.18161702156066895,
+  "end_to_end_latency": 0.19743132591247559,
+  "output": {
+    "literal": "the training area was used by troops who were deployed to the vietnam war"
+  },
+  "http_status": 200,
+  "client_latency": 0.513
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-9a52-78ad-b21e-c00fffa706e4",
+  "transcript": "pavlishenko was later invited by eleanor roosevelt to tour america relating her experiences",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13625478744506836,
+  "end_to_end_latency": 0.24170231819152832,
+  "output": {
+    "literal": "pavlishenko was later invited by eleanor roosevelt to tour america relating her experiences"
+  },
+  "http_status": 200,
+  "client_latency": 0.555
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-ca96-76cf-b1ef-a95b14eb91af",
+  "transcript": "close by to the south is the fishing village of craster",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13879823684692383,
+  "end_to_end_latency": 0.18404555320739746,
+  "output": {
+    "literal": "close by to the south is the fishing village of craster"
+  },
+  "http_status": 200,
+  "client_latency": 0.502
+}

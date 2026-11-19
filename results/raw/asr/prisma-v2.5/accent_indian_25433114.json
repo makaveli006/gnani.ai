@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-05ad-7810-9f4c-f8d75c496f53",
+  "transcript": "this procedure is carried out for the green teas and yellow teas",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16904735565185547,
+  "end_to_end_latency": 0.17823219299316406,
+  "output": {
+    "literal": "this procedure is carried out for the green teas and yellow teas"
+  },
+  "http_status": 200,
+  "client_latency": 1.542
+}

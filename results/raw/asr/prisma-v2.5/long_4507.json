@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-e6fa-7341-a6d4-d4eb49a0de0e",
+  "transcript": "thus idle is fine",
+  "model": "prisma-v2.5",
+  "processing_time": 0.47144389152526855,
+  "end_to_end_latency": 0.5112135410308838,
+  "output": {
+    "literal": "thus idle  is fine"
+  },
+  "http_status": 200,
+  "client_latency": 0.972
+}

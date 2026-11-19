@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-a2f5-7550-9bdd-0fc8b48c3811",
+  "transcript": "saturday august 15th the sea unbroken all round no land in sight",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14403843879699707,
+  "end_to_end_latency": 0.1528942584991455,
+  "output": {
+    "literal": "saturday august fifteenth the sea unbroken all round no land in sight"
+  },
+  "http_status": 200,
+  "client_latency": 0.573
+}

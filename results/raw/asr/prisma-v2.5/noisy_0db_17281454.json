@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-15a6-70fc-9f98-9cd065446b91",
+  "transcript": "is it possible if you want to go and your boy for game",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16317033767700195,
+  "end_to_end_latency": 0.17632508277893066,
+  "output": {
+    "literal": "is it possible if you want to go and your boy for game"
+  },
+  "http_status": 200,
+  "client_latency": 0.946
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-ed8f-7fb9-8d5e-69afb117da6c",
+  "transcript": "buyers must continue to rely on their own knowledge and judgment",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1258680820465088,
+  "end_to_end_latency": 0.18234467506408691,
+  "output": {
+    "literal": "buyers must continue to rely on their own knowledge and judgment"
+  },
+  "http_status": 200,
+  "client_latency": 0.499
+}

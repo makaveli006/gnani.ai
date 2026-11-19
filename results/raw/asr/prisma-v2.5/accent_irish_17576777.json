@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-c407-7140-a9b0-f895fd5ea437",
+  "transcript": "please use normal slashes not back slashes",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12208151817321777,
+  "end_to_end_latency": 0.12818479537963867,
+  "output": {
+    "literal": "please use normal slashes not back slashes"
+  },
+  "http_status": 200,
+  "client_latency": 1.21
+}

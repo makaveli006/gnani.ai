@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-438d-75ee-8ed9-8c2b086a19c0",
+  "transcript": "it handles large image data sets",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1266460418701172,
+  "end_to_end_latency": 0.1321868896484375,
+  "output": {
+    "literal": "it handles large image data sets"
+  },
+  "http_status": 200,
+  "client_latency": 0.392
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-a03b-79bd-bd56-15cdcdbec1ed",
+  "transcript": "his son augustine was also distinguished in the field of learning",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09703445434570312,
+  "end_to_end_latency": 0.10534787178039551,
+  "output": {
+    "literal": "his son augustine was also distinguished in the field of learning"
+  },
+  "http_status": 200,
+  "client_latency": 0.366
+}

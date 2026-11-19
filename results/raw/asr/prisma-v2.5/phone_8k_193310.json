@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-39ad-7231-a762-d40ec7d40f54",
+  "transcript": "proteins have many functions in the human body",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15662169456481934,
+  "end_to_end_latency": 0.16269421577453613,
+  "output": {
+    "literal": "proteins have many functions in the human body"
+  },
+  "http_status": 200,
+  "client_latency": 0.388
+}

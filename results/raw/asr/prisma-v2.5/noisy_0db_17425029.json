@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-0578-7d3a-b814-65f18a9f0239",
+  "transcript": "cause serious injuries the physician explained to the patient",
+  "model": "prisma-v2.5",
+  "processing_time": 0.19940567016601562,
+  "end_to_end_latency": 0.20765066146850586,
+  "output": {
+    "literal": "cause serious injuries the physician explained to the patient"
+  },
+  "http_status": 200,
+  "client_latency": 0.546
+}

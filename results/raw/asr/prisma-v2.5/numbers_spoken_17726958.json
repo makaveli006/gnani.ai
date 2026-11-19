@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6852-7089-a940-330c557af1b8",
+  "transcript": "the car sold for 12,469 dollars",
+  "model": "prisma-v2.5",
+  "processing_time": 0.20041584968566895,
+  "end_to_end_latency": 0.2118852138519287,
+  "output": {
+    "literal": "the car sold for twelve thousand four hundred and sixty nine dollars"
+  },
+  "http_status": 200,
+  "client_latency": 0.588
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-0b52-719a-bbeb-3a3ea6b6bea3",
+  "transcript": "meanwhile several states have either abolished or shut down death penalty laws",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1816730499267578,
+  "end_to_end_latency": 0.19056463241577148,
+  "output": {
+    "literal": "meanwhile several states have either abolished or shut down death penalty laws"
+  },
+  "http_status": 200,
+  "client_latency": 0.904
+}

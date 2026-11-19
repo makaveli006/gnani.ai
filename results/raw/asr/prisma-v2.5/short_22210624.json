@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-58cb-7925-8938-1c88e151dfbc",
+  "transcript": "i am not though",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09240365028381348,
+  "end_to_end_latency": 0.09784650802612305,
+  "output": {
+    "literal": "i am not though"
+  },
+  "http_status": 200,
+  "client_latency": 0.373
+}

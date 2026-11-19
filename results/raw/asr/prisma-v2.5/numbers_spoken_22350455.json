@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-80d7-7fe1-8f7b-4341a991984a",
+  "transcript": "he has 11 grandchildren",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14951562881469727,
+  "end_to_end_latency": 0.1575927734375,
+  "output": {
+    "literal": "he has eleven grandchildren"
+  },
+  "http_status": 200,
+  "client_latency": 0.872
+}

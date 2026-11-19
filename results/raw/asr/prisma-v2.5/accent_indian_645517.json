@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-fc87-7c9d-b274-b200fa6c3312",
+  "transcript": "men are working on getting tiles ready to use on a building",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15293025970458984,
+  "end_to_end_latency": 0.16430354118347168,
+  "output": {
+    "literal": "men are working on getting tiles ready to use on a building"
+  },
+  "http_status": 200,
+  "client_latency": 0.572
+}

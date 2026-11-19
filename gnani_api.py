@@ -48,12 +48,13 @@ def transcribe(wav_path, name, model=None, language="en-IN"):
     data = {"language_code": language}
     if model:
         data["model"] = model
-    with open(wav_path, "rb") as f:
-        r, elapsed = post_with_retry(
-            f"{BASE_URL}/stt/v3",
-            files={"audio_file": (Path(wav_path).name, f, "audio/wav")},
-            data=data,
-        )
+    # read the bytes once, so a retry sends the full file again
+    audio_bytes = Path(wav_path).read_bytes()
+    r, elapsed = post_with_retry(
+        f"{BASE_URL}/stt/v3",
+        files={"audio_file": (Path(wav_path).name, audio_bytes, "audio/wav")},
+        data=data,
+    )
 
     try:
         result = r.json()
@@ -62,8 +63,9 @@ def transcribe(wav_path, name, model=None, language="en-IN"):
     result["http_status"] = r.status_code
     result["client_latency"] = round(elapsed, 3)
 
-    # only cache good answers, so failed ones are retried next run
-    if result.get("success"):
+    # cache good answers and client errors (they fail the same way every time);
+    # server errors (5xx) are not cached so they are retried next run
+    if result.get("success") or r.status_code in (400, 403, 413, 422):
         cache.parent.mkdir(parents=True, exist_ok=True)
         cache.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     return result

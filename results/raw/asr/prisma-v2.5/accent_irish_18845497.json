@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-beb7-7ba4-9095-f3276c17fac0",
+  "transcript": "difficulties between the two emerged in their marriage",
+  "model": "prisma-v2.5",
+  "processing_time": 0.19012069702148438,
+  "end_to_end_latency": 0.20200729370117188,
+  "output": {
+    "literal": "difficulties between the two emerged in their marriage"
+  },
+  "http_status": 200,
+  "client_latency": 0.45
+}

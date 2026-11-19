@@ -1,0 +1,208 @@
+[1/145] clean_us_1089-134686-0001  WER=1.00
+[2/145] clean_us_1188-133604-0000  WER=1.00
+[3/145] clean_us_1320-122612-0002  WER=0.00
+[4/145] clean_us_2300-131720-0000  WER=0.08
+[5/145] clean_us_260-123286-0000  WER=0.00
+[6/145] clean_us_2830-3979-0002  WER=0.00
+[7/145] clean_us_4077-13751-0001  WER=0.00
+[8/145] clean_us_5105-28233-0000  WER=0.00
+[9/145] clean_us_5639-40744-0005  WER=0.06
+[10/145] clean_us_61-70968-0000  WER=0.00
+[11/145] clean_us_121-121726-0000  WER=0.00
+[12/145] clean_us_1221-135766-0002  WER=1.00
+[13/145] clean_us_1284-1180-0003 FAILED: 403 HTML error page (blocked by firewall)
+[14/145] clean_us_1580-141083-0002  WER=0.00
+[15/145] clean_us_1995-1826-0002  WER=0.00
+[16/145] clean_us_2094-142345-0005  WER=0.10
+[17/145] clean_us_237-126133-0004  WER=0.10
+[18/145] clean_us_2961-960-0001  WER=0.13
+[19/145] clean_us_3570-5694-0001  WER=0.00
+[20/145] clean_us_3575-170457-0001  WER=0.00
+[21/145] long_3729  WER=1.00
+[22/145] long_4446  WER=0.00
+[23/145] long_4507  WER=0.95
+[24/145] long_4970  WER=0.14
+[25/145] long_4992  WER=0.48
+[26/145] accent_indian_40921264  WER=0.00
+[27/145] accent_indian_20264170  WER=0.00
+[28/145] accent_indian_20405318  WER=0.00
+[29/145] accent_indian_27302134  WER=0.00
+[30/145] accent_indian_645517  WER=0.00
+[31/145] accent_indian_18387833  WER=0.00
+[32/145] accent_indian_25433114  WER=0.09
+[33/145] accent_indian_17425029  WER=0.00
+[34/145] accent_indian_19612757  WER=0.08
+[35/145] accent_indian_31790766  WER=0.00
+[36/145] accent_indian_17391991  WER=0.00
+[37/145] accent_indian_25038482  WER=0.09
+[38/145] accent_indian_20607251  WER=0.00
+[39/145] accent_indian_17283024  WER=0.00
+[40/145] accent_indian_19690292  WER=0.00
+[41/145] accent_indian_689462  WER=0.00
+[42/145] accent_indian_153333  WER=0.00
+[43/145] accent_indian_17434904  WER=0.00
+[44/145] accent_indian_17281454  WER=0.00
+[45/145] accent_indian_17247732  WER=0.00
+[46/145] accent_indian_1009486  WER=0.00
+[47/145] accent_indian_17783018  WER=0.08
+[48/145] accent_indian_17322377  WER=0.08
+[49/145] accent_indian_19595948  WER=0.00
+[50/145] accent_indian_496232  WER=0.00
+[51/145] accent_indian_26626458  WER=0.00
+[52/145] accent_indian_193310  WER=0.00
+[53/145] accent_indian_18841412  WER=0.00
+[54/145] accent_indian_612325  WER=0.00
+[55/145] accent_indian_22210611  WER=0.00
+[56/145] short_18359293  WER=0.00
+[57/145] short_689461  WER=0.00
+[58/145] short_17758196  WER=0.00
+[59/145] short_17726956  WER=0.00
+[60/145] short_17434909  WER=0.00
+[61/145] short_22210624  WER=0.00
+[62/145] short_23394443  WER=0.00
+[63/145] short_22220440  WER=0.00
+[64/145] short_22069670  WER=0.00
+[65/145] short_22210467  WER=0.00
+[66/145] numbers_spoken_17783003  WER=0.00
+[67/145] numbers_spoken_17726958  WER=0.00
+[68/145] numbers_spoken_544199  WER=0.00
+[69/145] numbers_spoken_496237  WER=0.12
+[70/145] numbers_spoken_18359260  WER=0.00
+[71/145] numbers_spoken_17259911  WER=0.05
+[72/145] numbers_spoken_612330  WER=0.00
+[73/145] numbers_spoken_22350455  WER=0.00
+[74/145] numbers_spoken_1009475  WER=0.22
+[75/145] numbers_spoken_36506656  WER=0.00
+[76/145] proper_nouns_23853393  WER=0.00
+[77/145] proper_nouns_19673642  WER=0.00
+[78/145] proper_nouns_18846092  WER=0.22
+[79/145] proper_nouns_26587760  WER=0.15
+[80/145] proper_nouns_22069689  WER=0.21
+[81/145] proper_nouns_17758217  WER=0.00
+[82/145] proper_nouns_24775870  WER=0.08
+[83/145] proper_nouns_20405322  WER=0.17
+[84/145] proper_nouns_18840660  WER=0.15
+[85/145] proper_nouns_21765880  WER=0.09
+[86/145] accent_irish_19941072  WER=0.00
+[87/145] accent_irish_39602140  WER=0.08
+[88/145] accent_irish_25650380  WER=0.00
+[89/145] accent_irish_26949296  WER=0.00
+[90/145] accent_irish_19853173  WER=0.00
+[91/145] accent_irish_18953293  WER=0.00
+[92/145] accent_irish_27165979  WER=0.00
+[93/145] accent_irish_18845497  WER=0.00
+[94/145] accent_irish_17576768  WER=0.00
+[95/145] accent_irish_17576777  WER=0.33
+[96/145] accent_irish_17403009  WER=0.00
+[97/145] accent_irish_17728604  WER=0.00
+[98/145] accent_irish_22112265  WER=0.00
+[99/145] accent_irish_202179  WER=0.00
+[100/145] accent_irish_17367840  WER=0.00
+[101/145] accent_irish_24986825  WER=0.00
+[102/145] accent_irish_20483338  WER=0.00
+[103/145] accent_irish_25167305  WER=0.00
+[104/145] accent_irish_591885  WER=0.00
+[105/145] accent_irish_3247  WER=0.20
+[106/145] noisy_20db_40921264  WER=0.00
+[107/145] noisy_10db_40921264  WER=0.00
+[108/145] noisy_0db_40921264  WER=0.00
+[109/145] phone_8k_40921264  WER=0.00
+[110/145] noisy_20db_20264170  WER=0.00
+[111/145] noisy_10db_20264170  WER=0.00
+[112/145] noisy_0db_20264170  WER=1.00
+[113/145] phone_8k_20264170  WER=0.00
+[114/145] noisy_20db_27302134  WER=0.00
+[115/145] noisy_10db_27302134  WER=0.00
+[116/145] noisy_0db_27302134  WER=0.56
+[117/145] phone_8k_27302134  WER=0.00
+[118/145] noisy_20db_17425029  WER=0.00
+[119/145] noisy_10db_17425029  WER=0.00
+[120/145] noisy_0db_17425029  WER=0.18
+[121/145] phone_8k_17425029  WER=0.00
+[122/145] noisy_20db_689462  WER=0.00
+[123/145] noisy_10db_689462  WER=0.00
+[124/145] noisy_0db_689462  WER=0.30
+[125/145] phone_8k_689462  WER=0.00
+[126/145] noisy_20db_17281454  WER=0.00
+[127/145] noisy_10db_17281454  WER=0.06
+[128/145] noisy_0db_17281454  WER=0.50
+[129/145] phone_8k_17281454  WER=0.00
+[130/145] noisy_20db_1009486  WER=0.00
+[131/145] noisy_10db_1009486  WER=0.00
+[132/145] noisy_0db_1009486  WER=0.00
+[133/145] phone_8k_1009486  WER=0.00
+[134/145] noisy_20db_17322377  WER=0.08
+[135/145] noisy_10db_17322377  WER=0.08
+[136/145] noisy_0db_17322377  WER=0.83
+[137/145] phone_8k_17322377  WER=0.08
+[138/145] noisy_20db_193310  WER=0.00
+[139/145] noisy_10db_193310  WER=0.00
+[140/145] noisy_0db_193310  WER=0.38
+[141/145] phone_8k_193310  WER=0.00
+[142/145] noisy_20db_17434904  WER=0.00
+[143/145] noisy_10db_17434904  WER=0.00
+[144/145] noisy_0db_17434904  WER=0.54
+[145/145] phone_8k_17434904  WER=0.00
+
+      category  clips  words   WER   CER  WER_non_empty  sub  del  ins  perfect_clips  empty_transcripts  avg_latency_s
+      clean_us     19    270 0.167 0.158          0.030    7   38    0             11                  3           0.61
+  accent_irish     20    190 0.026 0.009          0.026    3    1    1             17                  0           0.73
+ accent_indian     30    311 0.016 0.012          0.016    4    0    1             25                  0           0.73
+         short     10     26 0.000 0.000          0.000    0    0    0             10                  0           0.78
+          long      5    284 0.493 0.476          0.351    3  137    0              1                  1           0.79
+numbers_spoken     10     85 0.047 0.011          0.047    3    1    0              7                  0           0.95
+  proper_nouns     10    114 0.114 0.039          0.114   12    0    1              3                  0           0.55
+    noisy_20db     10    112 0.009 0.006          0.009    1    0    0              9                  0           0.62
+    noisy_10db     10    112 0.018 0.010          0.018    2    0    0              8                  0           0.71
+     noisy_0db     10    112 0.438 0.310          0.438   25   19    5              2                  0           0.69
+      phone_8k     10    112 0.009 0.006          0.009    1    0    0              9                  0           0.59
+           ALL    144   1728 0.153 0.130          0.101   61  196    8            102                  4           0.70
+
+Worst 10 clips:
+  1.00  clean_us_1089-134686-0001
+        ref: stuff it into you his belly counselled him
+        hyp: 
+  1.00  long_3729
+        ref: to celebrate the arrival of her son silvia gave a splendid supper to which she had invited all her relatives and it was a good opportunity for me to make their acquaintance without saying it positively she made me understand that being herself an illustrious member of the republic of letters she was well aware that she was speaking to an insect
+        hyp: 
+  1.00  noisy_0db_20264170
+        ref: Buyers must continue to rely on their own knowledge and judgment.
+        hyp: one continued on the occurring and even will sound
+  1.00  clean_us_1221-135766-0002
+        ref: yet these thoughts affected hester prynne less with hope than apprehension
+        hyp: 
+  1.00  clean_us_1188-133604-0000
+        ref: you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms
+        hyp: 
+  0.95  long_4507
+        ref: chapter one origin it engenders a whole world la pegre for which read theft and a hell la pegrenne for which read hunger thus idleness is the mother she has a son theft and a daughter hunger what is slang
+        hyp: thus idle  is fine
+  0.83  noisy_0db_17322377
+        ref: She's low down on our list of concerns at the moment.
+        hyp: slow down a list for the same moments
+  0.56  noisy_0db_27302134
+        ref: Each player always plays the same set of cards.
+        hyp: each player always plays in without call and
+  0.54  noisy_0db_17434904
+        ref: How does slow cooling of the hot gaseous state result in pure crystals?
+        hyp: how does slow cooling of hot cash estate would work in progress
+  0.50  noisy_0db_17281454
+        ref: Is it possible, if you would be so kind, to lend me your brolly for today?
+        hyp: is it possible if you want to go and your boy for game
+
+Most common errors (reference -> heard):
+  4x  our -> a
+  1x  stuff it into you his belly counselled him -> <missing>
+  1x  you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms -> <missing>
+  1x  at -> of
+  1x  exulting -> exalting
+  1x  yet these thoughts affected hester prynne less with hope than apprehension -> <missing>
+  1x  clothes -> close
+  1x  coloured -> colored
+  1x  phronsie -> fronzi
+  1x  with -> which
+  1x  timaeus -> timeus
+  1x  to celebrate the arrival of her son silvia gave a splendid supper to which she had invited all her relatives and it was a good opportunity for me to make their acquaintance without saying it positively she made me understand that being herself an illustrious member of the republic of letters she was well aware that she was speaking to an insect -> <missing>
+  1x  chapter one origin it engenders a whole world la pegre for which read theft and a hell la pegrenne for which read hunger -> <missing>
+  1x  idleness -> idle
+  1x  the mother she has a son theft and a daughter hunger what is slang -> fine

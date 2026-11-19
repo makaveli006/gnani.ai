@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-53f6-74c5-95e4-af228d448b98",
+  "transcript": "a fabulous tale",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16562318801879883,
+  "end_to_end_latency": 0.17045998573303223,
+  "output": {
+    "literal": "a fabulous tale"
+  },
+  "http_status": 200,
+  "client_latency": 0.518
+}

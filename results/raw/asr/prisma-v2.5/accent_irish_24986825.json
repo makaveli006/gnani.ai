@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-d21a-7a02-bb46-0bba154522f6",
+  "transcript": "they made it to the final finishing in 3rd place",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13990092277526855,
+  "end_to_end_latency": 0.1522822380065918,
+  "output": {
+    "literal": "they made it to the final finishing in third place"
+  },
+  "http_status": 200,
+  "client_latency": 0.452
+}

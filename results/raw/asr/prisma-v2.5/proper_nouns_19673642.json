@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-8ee0-7725-880a-a665ff9f3c01",
+  "transcript": "geographically the sidhu are from the punjab region of india",
+  "model": "prisma-v2.5",
+  "processing_time": 0.18130207061767578,
+  "end_to_end_latency": 0.22895073890686035,
+  "output": {
+    "literal": "geographically the sidhu are from the punjab region of india"
+  },
+  "http_status": 200,
+  "client_latency": 0.533
+}

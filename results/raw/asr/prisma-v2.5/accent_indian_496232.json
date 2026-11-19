@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-3702-72f2-9597-e1462a6ab141",
+  "transcript": "i told him we could teach her to ignore people who waste her time",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13040995597839355,
+  "end_to_end_latency": 0.14612841606140137,
+  "output": {
+    "literal": "i told him we could teach her to ignore people who waste her time"
+  },
+  "http_status": 200,
+  "client_latency": 0.55
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-d99a-7d5b-a369-c7d5c547c0d7",
+  "transcript": "the influence which the timeus has exercised upon posterity is due partly to a misunderstanding",
+  "model": "prisma-v2.5",
+  "processing_time": 0.19232416152954102,
+  "end_to_end_latency": 0.21289968490600586,
+  "output": {
+    "literal": "the influence which the timeus has exercised upon posterity is due partly to a misunderstanding"
+  },
+  "http_status": 200,
+  "client_latency": 0.517
+}

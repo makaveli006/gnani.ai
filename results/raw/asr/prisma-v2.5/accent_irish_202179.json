@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-cd76-7017-982f-1787119a8832",
+  "transcript": "i don't know why you boys are so good to me",
+  "model": "prisma-v2.5",
+  "processing_time": 0.17944574356079102,
+  "end_to_end_latency": 0.1892707347869873,
+  "output": {
+    "literal": "i don't know why you boys are so good to me"
+  },
+  "http_status": 200,
+  "client_latency": 0.759
+}

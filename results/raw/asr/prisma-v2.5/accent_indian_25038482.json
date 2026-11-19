@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-10cd-76f6-9712-f34a4668ea60",
+  "transcript": "the screen cuts to black and strange sound effects are playing",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14021944999694824,
+  "end_to_end_latency": 0.151078462600708,
+  "output": {
+    "literal": "the screen cuts to black and strange sound effects are playing"
+  },
+  "http_status": 200,
+  "client_latency": 0.532
+}

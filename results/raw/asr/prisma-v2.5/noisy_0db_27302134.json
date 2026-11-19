@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-fd3e-7cb9-9be9-092ca778ac30",
+  "transcript": "each player always plays in without call and",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10003066062927246,
+  "end_to_end_latency": 0.10624957084655762,
+  "output": {
+    "literal": "each player always plays in without call and"
+  },
+  "http_status": 200,
+  "client_latency": 0.739
+}

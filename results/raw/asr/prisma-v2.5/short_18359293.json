@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-47e2-704a-b6fd-b2549ed6bdde",
+  "transcript": "please bring soap",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09720182418823242,
+  "end_to_end_latency": 0.10177993774414062,
+  "output": {
+    "literal": "please bring soap"
+  },
+  "http_status": 200,
+  "client_latency": 0.346
+}

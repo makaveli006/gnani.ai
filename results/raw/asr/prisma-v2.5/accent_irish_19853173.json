@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-ba05-7a8c-9ca5-38d49890a876",
+  "transcript": "parvati recognized him and became very angry",
+  "model": "prisma-v2.5",
+  "processing_time": 0.061480045318603516,
+  "end_to_end_latency": 0.06728148460388184,
+  "output": {
+    "literal": "parvati recognized him and became very angry"
+  },
+  "http_status": 200,
+  "client_latency": 0.325
+}

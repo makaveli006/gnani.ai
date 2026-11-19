@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6657-7ed7-a3d0-209da1b56f90",
+  "transcript": "the mall is open 8:30 am to 5:30 pm",
+  "model": "prisma-v2.5",
+  "processing_time": 0.12603235244750977,
+  "end_to_end_latency": 0.1386394500732422,
+  "output": {
+    "literal": "the mall is open eight thirty am to five thirty pm"
+  },
+  "http_status": 200,
+  "client_latency": 0.393
+}

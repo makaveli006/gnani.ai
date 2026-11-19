@@ -1,13 +1,26 @@
 import re
 
+# Prisma writes "she's" as "she is". Both are correct, so expand
+# contractions on both sides before comparing.
+CONTRACTIONS = {
+    "i'm": "i am", "you're": "you are", "we're": "we are", "they're": "they are",
+    "he's": "he is", "she's": "she is", "it's": "it is", "that's": "that is",
+    "what's": "what is", "there's": "there is", "let's": "let us",
+    "don't": "do not", "doesn't": "does not", "didn't": "did not",
+    "can't": "cannot", "won't": "will not", "isn't": "is not", "aren't": "are not",
+    "wasn't": "was not", "couldn't": "could not", "wouldn't": "would not",
+    "i've": "i have", "you've": "you have", "we've": "we have", "i'll": "i will",
+    "you'll": "you will", "i'd": "i would",
+}
+
 
 def normalize(text):
     text = text.lower()
-    text = text.replace("-", " ")
+    text = text.replace("-", " ").replace("’", "'")
     # keep letters, digits, apostrophes and spaces
     text = re.sub(r"[^a-z0-9' ]", " ", text)
-    text = text.replace(" '", " ").replace("' ", " ")
-    return " ".join(text.split())
+    words = [CONTRACTIONS.get(w.strip("'"), w.strip("'")) for w in text.split()]
+    return " ".join(" ".join(words).split())
 
 
 def edit_ops(ref, hyp):

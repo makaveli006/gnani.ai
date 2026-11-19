@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-dbda-7e74-bbe8-70638cdc1803",
+  "transcript": "the utility of consumption as an evidence of wealth is to be classed as a derivative growth",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16111183166503906,
+  "end_to_end_latency": 0.18471503257751465,
+  "output": {
+    "literal": "the utility of consumption as an evidence of wealth is to be classed as a derivative growth"
+  },
+  "http_status": 200,
+  "client_latency": 0.555
+}

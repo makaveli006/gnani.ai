@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-d807-7a9c-bbd2-5bd8c1bf576a",
+  "transcript": "if she could only see fronzi for just one moment",
+  "model": "prisma-v2.5",
+  "processing_time": 0.06321883201599121,
+  "end_to_end_latency": 0.0716867446899414,
+  "output": {
+    "literal": "if she could only see fronzi for just one moment"
+  },
+  "http_status": 200,
+  "client_latency": 0.421
+}

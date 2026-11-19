@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-a503-768c-bdd4-0b92000568af",
+  "transcript": "let us begin with that his commentary on galatians",
+  "model": "prisma-v2.5",
+  "processing_time": 0.08588171005249023,
+  "end_to_end_latency": 0.09276032447814941,
+  "output": {
+    "literal": "let us begin with that his commentary on galatians"
+  },
+  "http_status": 200,
+  "client_latency": 0.433
+}

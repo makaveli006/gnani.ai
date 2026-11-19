@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-bd23-701a-bda9-83bf903e4137",
+  "transcript": "he published several books on these subjects",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14491677284240723,
+  "end_to_end_latency": 0.15198111534118652,
+  "output": {
+    "literal": "he published several books on these subjects"
+  },
+  "http_status": 200,
+  "client_latency": 0.415
+}

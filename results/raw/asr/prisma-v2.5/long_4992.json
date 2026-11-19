@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-eea4-75c8-8ac8-101fb11a400c",
+  "transcript": "but the more forgetfulness had then prevailed the more powerful was the force of remembrance when she awoke miss milner's health is not good mrs horton a few minutes after incoherent and unaccountable",
+  "model": "prisma-v2.5",
+  "processing_time": 0.2743229866027832,
+  "end_to_end_latency": 0.3420984745025635,
+  "output": {
+    "literal": "but the more forgetfulness had then prevailed the more powerful was the force of remembrance when she awoke miss milner's health is not good mrs horton a few minutes after  incoherent and unaccountable"
+  },
+  "http_status": 200,
+  "client_latency": 0.694
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-d862-725b-9683-6136c4c350f7",
+  "transcript": "i can send contextual information to it from other apps",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09860610961914062,
+  "end_to_end_latency": 0.10788416862487793,
+  "output": {
+    "literal": "i can send contextual information to it from other apps"
+  },
+  "http_status": 200,
+  "client_latency": 0.365
+}

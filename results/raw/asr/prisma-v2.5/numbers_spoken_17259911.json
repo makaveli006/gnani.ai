@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-7c03-7439-993a-31a01d939c3b",
+  "transcript": "by accepting your privacy policy you agree that we save your data for 21 days to detect frauds",
+  "model": "prisma-v2.5",
+  "processing_time": 0.17693853378295898,
+  "end_to_end_latency": 0.2489185333251953,
+  "output": {
+    "literal": "by accepting your privacy policy you agree that we save your data for twenty one days to detect frauds"
+  },
+  "http_status": 200,
+  "client_latency": 3.784
+}

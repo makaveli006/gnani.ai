@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-b671-79d3-bdc5-99d3c17240e4",
+  "transcript": "traffic moves slowly enough to allow visual engagement with pedestrians encouraging deference towards them",
+  "model": "prisma-v2.5",
+  "processing_time": 0.17045021057128906,
+  "end_to_end_latency": 0.18959259986877441,
+  "output": {
+    "literal": "traffic moves slowly enough to allow visual engagement with pedestrians encouraging deference towards them"
+  },
+  "http_status": 200,
+  "client_latency": 0.611
+}

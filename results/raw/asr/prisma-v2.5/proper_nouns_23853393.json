@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-8d06-70f5-a69e-24e6fef84163",
+  "transcript": "he identified salvo lima as the contact of the mafia in italian politics",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1375257968902588,
+  "end_to_end_latency": 0.14998459815979004,
+  "output": {
+    "literal": "he identified salvo lima as the contact of the mafia in italian politics"
+  },
+  "http_status": 200,
+  "client_latency": 0.723
+}

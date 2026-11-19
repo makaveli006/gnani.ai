@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-b89a-79ca-9974-aee05d8831b5",
+  "transcript": "the house was built for samuel barnard a merchant",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09095144271850586,
+  "end_to_end_latency": 0.09780287742614746,
+  "output": {
+    "literal": "the house was built for samuel barnard a merchant"
+  },
+  "http_status": 200,
+  "client_latency": 0.407
+}

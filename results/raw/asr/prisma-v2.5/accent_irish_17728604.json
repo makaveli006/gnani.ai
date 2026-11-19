@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-c8b3-72aa-8bf7-d70eec17d0bf",
+  "transcript": "the carpenter offered me a discount of 20%",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15426278114318848,
+  "end_to_end_latency": 0.16247105598449707,
+  "output": {
+    "literal": "the carpenter offered me a discount of twenty percent"
+  },
+  "http_status": 200,
+  "client_latency": 0.426
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-6e96-7a87-89f7-0dc7ef2c3ce3",
+  "transcript": "the item costs five euros",
+  "model": "prisma-v2.5",
+  "processing_time": 0.16507220268249512,
+  "end_to_end_latency": 0.17093682289123535,
+  "output": {
+    "literal": "the item costs five euros"
+  },
+  "http_status": 200,
+  "client_latency": 0.452
+}

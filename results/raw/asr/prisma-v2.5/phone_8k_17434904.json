@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-4075-70cf-80a9-4fc2f1b69f27",
+  "transcript": "how does slow cooling of the hot gaseous state result in pure crystals",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1411280632019043,
+  "end_to_end_latency": 0.14879202842712402,
+  "output": {
+    "literal": "how does slow cooling of the hot gaseous state result in pure crystals"
+  },
+  "http_status": 200,
+  "client_latency": 0.534
+}

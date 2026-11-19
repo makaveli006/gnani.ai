@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f441-f562-79ac-b8d5-7a45025530ec",
+  "transcript": "the planetoid orbits the sun between mars and jupiter",
+  "model": "prisma-v2.5",
+  "processing_time": 0.17269015312194824,
+  "end_to_end_latency": 0.1858384609222412,
+  "output": {
+    "literal": "the planetoid orbits the sun between mars and jupiter"
+  },
+  "http_status": 200,
+  "client_latency": 0.986
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f443-381a-7ae6-b3c0-476e987a8a94",
+  "transcript": "so these are many functions in the human body",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1375589370727539,
+  "end_to_end_latency": 0.15649724006652832,
+  "output": {
+    "literal": "so these are many functions in the human body"
+  },
+  "http_status": 200,
+  "client_latency": 0.498
+}

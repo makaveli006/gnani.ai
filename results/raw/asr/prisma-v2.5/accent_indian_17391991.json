@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1f442-0f04-787f-9d9c-d84b26efaaeb",
+  "transcript": "what is the meaning of this",
+  "model": "prisma-v2.5",
+  "processing_time": 0.057883501052856445,
+  "end_to_end_latency": 0.06417655944824219,
+  "output": {
+    "literal": "what is the meaning of this"
+  },
+  "http_status": 200,
+  "client_latency": 0.346
+}
