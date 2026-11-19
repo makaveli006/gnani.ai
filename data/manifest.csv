@@ -1,0 +1,146 @@
+id,category,source,speaker,gender,duration,reference,wav_path
+clean_us_1089-134686-0001,clean_us,librispeech,librispeech_1089,m,3.27,stuff it into you his belly counselled him,data/samples/clean_us/1089-134686-0001.wav
+clean_us_1188-133604-0000,clean_us,librispeech,librispeech_1188,m,10.72,you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms,data/samples/clean_us/1188-133604-0000.wav
+clean_us_1320-122612-0002,clean_us,librispeech,librispeech_1320,m,7.46,after proceeding a few miles the progress of hawkeye who led the advance became more deliberate and watchful,data/samples/clean_us/1320-122612-0002.wav
+clean_us_2300-131720-0000,clean_us,librispeech,librispeech_2300,m,5.08,the paris plant like that at the crystal palace was a temporary exhibit,data/samples/clean_us/2300-131720-0000.wav
+clean_us_260-123286-0000,clean_us,librispeech,librispeech_260,m,7.04,saturday august fifteenth the sea unbroken all round no land in sight,data/samples/clean_us/260-123286-0000.wav
+clean_us_2830-3979-0002,clean_us,librispeech,librispeech_2830,m,4.32,let us begin with that his commentary on galatians,data/samples/clean_us/2830-3979-0002.wav
+clean_us_4077-13751-0001,clean_us,librispeech,librispeech_4077,m,8.74,its origin was small a germ an insignificant seed hardly to be thought of as likely to arouse opposition,data/samples/clean_us/4077-13751-0001.wav
+clean_us_5105-28233-0000,clean_us,librispeech,librispeech_5105,m,4.51,length of service fourteen years three months and five days,data/samples/clean_us/5105-28233-0000.wav
+clean_us_5639-40744-0005,clean_us,librispeech,librispeech_5639,m,5.64,finally the one party went off exulting and the other was left in desolation and woe,data/samples/clean_us/5639-40744-0005.wav
+clean_us_61-70968-0000,clean_us,librispeech,librispeech_61,m,4.91,he began a confused complaint against the wizard who had vanished behind the curtain on the left,data/samples/clean_us/61-70968-0000.wav
+clean_us_121-121726-0000,clean_us,librispeech,librispeech_121,f,8.46,also a popular contrivance whereby love making may be suspended but not stopped during the picnic season,data/samples/clean_us/121-121726-0000.wav
+clean_us_1221-135766-0002,clean_us,librispeech,librispeech_1221,f,4.83,yet these thoughts affected hester prynne less with hope than apprehension,data/samples/clean_us/1221-135766-0002.wav
+clean_us_1284-1180-0003,clean_us,librispeech,librispeech_1284,f,4.83,for a long time he had wished to explore the beautiful land of oz in which they lived,data/samples/clean_us/1284-1180-0003.wav
+clean_us_1580-141083-0002,clean_us,librispeech,librispeech_1580,f,6.13,my friend's temper had not improved since he had been deprived of the congenial surroundings of baker street,data/samples/clean_us/1580-141083-0002.wav
+clean_us_1995-1826-0002,clean_us,librispeech,librispeech_1995,f,4.61,john taylor who had supported her through college was interested in cotton,data/samples/clean_us/1995-1826-0002.wav
+clean_us_2094-142345-0005,clean_us,librispeech,librispeech_2094,f,9.09,several clothes horses a pillion a spinning wheel and an old box wide open and stuffed full of coloured rags,data/samples/clean_us/2094-142345-0005.wav
+clean_us_237-126133-0004,clean_us,librispeech,librispeech_237,f,3.29,if she could only see phronsie for just one moment,data/samples/clean_us/237-126133-0004.wav
+clean_us_2961-960-0001,clean_us,librispeech,librispeech_2961,f,8.25,the influence with the timaeus has exercised upon posterity is due partly to a misunderstanding,data/samples/clean_us/2961-960-0001.wav
+clean_us_3570-5694-0001,clean_us,librispeech,librispeech_3570,f,5.67,the utility of consumption as an evidence of wealth is to be classed as a derivative growth,data/samples/clean_us/3570-5694-0001.wav
+clean_us_3575-170457-0001,clean_us,librispeech,librispeech_3575,f,2.99,why are we to be denied each other's society,data/samples/clean_us/3575-170457-0001.wav
+long_3729,long,librispeech,librispeech_3729,f,23.96,to celebrate the arrival of her son silvia gave a splendid supper to which she had invited all her relatives and it was a good opportunity for me to make their acquaintance without saying it positively she made me understand that being herself an illustrious member of the republic of letters she was well aware that she was speaking to an insect,data/samples/long/3729_long.wav
+long_4446,long,librispeech,librispeech_4446,f,17.13,mainhall liked alexander because he was an engineer he had preconceived ideas about everything and his idea about americans was that they should be engineers or mechanics it's tremendously well put on too it's been on only two weeks and i've been half a dozen times already,data/samples/long/4446_long.wav
+long_4507,long,librispeech,librispeech_4507,f,25.62,chapter one origin it engenders a whole world la pegre for which read theft and a hell la pegrenne for which read hunger thus idleness is the mother she has a son theft and a daughter hunger what is slang,data/samples/long/4507_long.wav
+long_4970,long,librispeech,librispeech_4970,f,26.58,you'll never dig it out of the astor library to the young american here or elsewhere the paths to fortune are innumerable and all open there is invitation in the air and success in all his wide horizon he has no traditions to bind him or guide him and his impulse is to break away from the occupation his father has followed and make a new way for himself,data/samples/long/4970_long.wav
+long_4992,long,librispeech,librispeech_4992,f,26.68,but the more forgetfulness had then prevailed the more powerful was the force of remembrance when she awoke miss milner's health is not good said missus horton a few minutes after so there is to me added sandford with a sarcastic sneer and yet you must own her behaviour has warranted them has it not been in this particular incoherent and unaccountable,data/samples/long/4992_long.wav
+accent_indian_40921264,accent_indian,cv_south_asian,cv_south_asian_spk0,,6.05,"He did not play in the World Series, but received a ring regardless.",data/samples/accent_indian/40921264.wav
+accent_indian_20264170,accent_indian,cv_south_asian,cv_south_asian_spk10,m,6.91,Buyers must continue to rely on their own knowledge and judgment.,data/samples/accent_indian/20264170.wav
+accent_indian_20405318,accent_indian,cv_south_asian,cv_south_asian_spk12,m,7.22,The planetoid orbits the Sun between Mars and Jupiter.,data/samples/accent_indian/20405318.wav
+accent_indian_27302134,accent_indian,cv_south_asian,cv_south_asian_spk14,m,4.61,Each player always plays the same set of cards.,data/samples/accent_indian/27302134.wav
+accent_indian_645517,accent_indian,cv_south_asian,cv_south_asian_spk17,m,7.46,Men are working on getting tiles ready to use on a building.,data/samples/accent_indian/645517.wav
+accent_indian_18387833,accent_indian,cv_south_asian,cv_south_asian_spk21,m,3.24,It was nice talking with you.,data/samples/accent_indian/18387833.wav
+accent_indian_25433114,accent_indian,cv_south_asian,cv_south_asian_spk24,,7.6,This procedure is carried out for green teas and yellow teas.,data/samples/accent_indian/25433114.wav
+accent_indian_17425029,accent_indian,cv_south_asian,cv_south_asian_spk27,m,8.18,"Jellyfish can cause serious injuries, the physician explained to the patient.",data/samples/accent_indian/17425029.wav
+accent_indian_19612757,accent_indian,cv_south_asian,cv_south_asian_spk28,m,9.07,"Meanwhile, several states have either abolished or struck down death penalty laws.",data/samples/accent_indian/19612757.wav
+accent_indian_31790766,accent_indian,cv_south_asian,cv_south_asian_spk30,m,6.3,The story is told in the first person by an unnamed narrator.,data/samples/accent_indian/31790766.wav
+accent_indian_17391991,accent_indian,cv_south_asian,cv_south_asian_spk31,m,2.66,What is the meaning of this?,data/samples/accent_indian/17391991.wav
+accent_indian_25038482,accent_indian,cv_south_asian,cv_south_asian_spk34,m,5.69,The screen cuts to black and strange sound effects are played.,data/samples/accent_indian/25038482.wav
+accent_indian_20607251,accent_indian,cv_south_asian,cv_south_asian_spk35,f,5.98,These training sessions spread the Pioneer-Scouts across the region.,data/samples/accent_indian/20607251.wav
+accent_indian_17283024,accent_indian,cv_south_asian,cv_south_asian_spk36,m,2.86,"Back to our original plan, I think.",data/samples/accent_indian/17283024.wav
+accent_indian_19690292,accent_indian,cv_south_asian,cv_south_asian_spk39,m,9.7,The training area was used by troops who were deployed to the Vietnam War.,data/samples/accent_indian/19690292.wav
+accent_indian_689462,accent_indian,cv_south_asian,cv_south_asian_spk41,m,4.7,Is there a history of heart disease in your family?,data/samples/accent_indian/689462.wav
+accent_indian_153333,accent_indian,cv_south_asian,cv_south_asian_spk43,m,3.58,"Maybe tomorrow, said the boy, moving away.",data/samples/accent_indian/153333.wav
+accent_indian_17434904,accent_indian,cv_south_asian,cv_south_asian_spk79,f,4.94,How does slow cooling of the hot gaseous state result in pure crystals?,data/samples/accent_indian/17434904.wav
+accent_indian_17281454,accent_indian,cv_south_asian,cv_south_asian_spk46,f,6.36,"Is it possible, if you would be so kind, to lend me your brolly for today?",data/samples/accent_indian/17281454.wav
+accent_indian_17247732,accent_indian,cv_south_asian,cv_south_asian_spk49,m,4.18,"In my opinion, you went too far with your satire poem.",data/samples/accent_indian/17247732.wav
+accent_indian_1009486,accent_indian,cv_south_asian,cv_south_asian_spk51,f,4.58,The facts don't always show who is right.,data/samples/accent_indian/1009486.wav
+accent_indian_17783018,accent_indian,cv_south_asian,cv_south_asian_spk55,f,3.94,Take care of the pence and the pounds will take care of themselves.,data/samples/accent_indian/17783018.wav
+accent_indian_17322377,accent_indian,cv_south_asian,cv_south_asian_spk56,m,4.25,She's low down on our list of concerns at the moment.,data/samples/accent_indian/17322377.wav
+accent_indian_19595948,accent_indian,cv_south_asian,cv_south_asian_spk57,f,8.21,The film screened on the first anniversary of the disaster.,data/samples/accent_indian/19595948.wav
+accent_indian_496232,accent_indian,cv_south_asian,cv_south_asian_spk60,m,6.02,I told him we could teach her to ignore people who waste her time.,data/samples/accent_indian/496232.wav
+accent_indian_26626458,accent_indian,cv_south_asian,cv_south_asian_spk62,f,6.8,Maddox uses this image as a parody of the revolutionary icon.,data/samples/accent_indian/26626458.wav
+accent_indian_193310,accent_indian,cv_south_asian,cv_south_asian_spk63,m,3.58,Proteins have many functions in the human body.,data/samples/accent_indian/193310.wav
+accent_indian_18841412,accent_indian,cv_south_asian,cv_south_asian_spk65,f,3.86,It handles large image data sets.,data/samples/accent_indian/18841412.wav
+accent_indian_612325,accent_indian,cv_south_asian,cv_south_asian_spk70,m,2.3,I never stole a watch in my life.,data/samples/accent_indian/612325.wav
+accent_indian_22210611,accent_indian,cv_south_asian,cv_south_asian_spk72,f,5.23,Republicans are no less dominant at the state level.,data/samples/accent_indian/22210611.wav
+short_18359293,short,cv_south_asian,cv_south_asian_spk40,m,2.38,Please bring soap.,data/samples/short/18359293.wav
+short_689461,short,cv_south_asian,cv_south_asian_spk41,m,3.6,What is today?,data/samples/short/689461.wav
+short_17758196,short,cv_south_asian,cv_south_asian_spk64,m,3.41,Forewarned is forearmed.,data/samples/short/17758196.wav
+short_17726956,short,cv_south_asian,cv_south_asian_spk71,m,3.48,A Fabulous tale.,data/samples/short/17726956.wav
+short_17434909,short,cv_south_asian,cv_south_asian_spk79,f,1.78,What's your status?,data/samples/short/17434909.wav
+short_22210624,short,cv_south_asian,cv_south_asian_spk72,f,2.78,"I'm not, though.",data/samples/short/22210624.wav
+short_23394443,short,cv_south_asian,cv_south_asian_spk80,m,2.3,The shot missed.,data/samples/short/23394443.wav
+short_22220440,short,cv_south_asian,cv_south_asian_spk53,m,2.18,yes,data/samples/short/22220440.wav
+short_22069670,short,cv_south_asian,cv_south_asian_spk52,m,1.99,no,data/samples/short/22069670.wav
+short_22210467,short,cv_south_asian,cv_south_asian_spk72,f,2.59,nine,data/samples/short/22210467.wav
+numbers_spoken_17783003,numbers_spoken,cv_south_asian,cv_south_asian_spk55,f,4.1,The mall is open eight thirty AM to five thirty PM.,data/samples/numbers_spoken/17783003.wav
+numbers_spoken_17726958,numbers_spoken,cv_south_asian,cv_south_asian_spk71,m,6.22,The car sold for twelve thousand four hundred and sixty nine dollars.,data/samples/numbers_spoken/17726958.wav
+numbers_spoken_544199,numbers_spoken,cv_south_asian,cv_south_asian_spk75,m,2.26,The train came thirteen minutes late.,data/samples/numbers_spoken/544199.wav
+numbers_spoken_496237,numbers_spoken,cv_south_asian,cv_south_asian_spk60,m,2.28,I've had this shop for thirty years.,data/samples/numbers_spoken/496237.wav
+numbers_spoken_18359260,numbers_spoken,cv_south_asian,cv_south_asian_spk40,m,3.62,The item costs five euros.,data/samples/numbers_spoken/18359260.wav
+numbers_spoken_17259911,numbers_spoken,cv_south_asian,cv_south_asian_spk47,m,9.74,"By accepting our privacy policy, you agree that we save your data for twenty-one days to detect frauds.",data/samples/numbers_spoken/17259911.wav
+numbers_spoken_612330,numbers_spoken,cv_south_asian,cv_south_asian_spk70,m,2.45,You got fifty cents?,data/samples/numbers_spoken/612330.wav
+numbers_spoken_22350455,numbers_spoken,cv_south_asian,cv_south_asian_spk77,m,3.14,He has eleven grandchildren.,data/samples/numbers_spoken/22350455.wav
+numbers_spoken_1009475,numbers_spoken,cv_south_asian,cv_south_asian_spk51,f,4.85,She bought three cod fishes to cook for dinner.,data/samples/numbers_spoken/1009475.wav
+numbers_spoken_36506656,numbers_spoken,cv_south_asian,cv_south_asian_spk66,,3.42,They had two children and five grandchildren.,data/samples/numbers_spoken/36506656.wav
+proper_nouns_23853393,proper_nouns,cv_south_asian,cv_south_asian_spk25,m,5.9,He identified Salvo Lima as the contact of the Mafia in Italian politics.,data/samples/proper_nouns/23853393.wav
+proper_nouns_19673642,proper_nouns,cv_south_asian,cv_south_asian_spk33,m,6.74,"Geographically, the Sidhu are from the Punjab region of India.",data/samples/proper_nouns/19673642.wav
+proper_nouns_18846092,proper_nouns,cv_south_asian,cv_south_asian_spk22,m,5.02,The Golden Boot was won by Argentina's Carlos Tevez.,data/samples/proper_nouns/18846092.wav
+proper_nouns_26587760,proper_nouns,cv_south_asian,cv_south_asian_spk48,m,8.86,"Eric Schabo now teaches history at Crestwood High School in Dearborn Heights, Michigan.",data/samples/proper_nouns/26587760.wav
+proper_nouns_22069689,proper_nouns,cv_south_asian,cv_south_asian_spk52,m,6.46,"They were neighbors and friends of Lou Costello, of the Abbott and Costello duo.",data/samples/proper_nouns/22069689.wav
+proper_nouns_17758217,proper_nouns,cv_south_asian,cv_south_asian_spk64,m,4.06,Matthew McConaughey is an American actor.,data/samples/proper_nouns/17758217.wav
+proper_nouns_24775870,proper_nouns,cv_south_asian,cv_south_asian_spk61,m,10.26,Pavlichenko was later invited by Eleanor Roosevelt to tour America relating her experiences.,data/samples/proper_nouns/24775870.wav
+proper_nouns_20405322,proper_nouns,cv_south_asian,cv_south_asian_spk12,m,5.78,The reservoirs are managed by Water Supplies Department of Hong Kong Government.,data/samples/proper_nouns/20405322.wav
+proper_nouns_18840660,proper_nouns,cv_south_asian,cv_south_asian_spk79,f,6.82,The Hawk of Qureish was also adopted as the Federation's coat of arms.,data/samples/proper_nouns/18840660.wav
+proper_nouns_21765880,proper_nouns,cv_south_asian,cv_south_asian_spk74,m,4.1,"His son, Augustin was also distinguished in the field of learning.",data/samples/proper_nouns/21765880.wav
+accent_irish_19941072,accent_irish,cv_irish,cv_irish_spk7,f,9.91,Wise and London translated into English two well-known French texts on gardening.,data/samples/accent_irish/19941072.wav
+accent_irish_39602140,accent_irish,cv_irish,cv_irish_spk9,,4.32,It thus accounts for most of the mass of all visible matter.,data/samples/accent_irish/39602140.wav
+accent_irish_25650380,accent_irish,cv_irish,cv_irish_spk10,m,8.5,"Traffic moves slowly enough to allow visual engagement with pedestrians, encouraging deference towards them.",data/samples/accent_irish/25650380.wav
+accent_irish_26949296,accent_irish,cv_irish,cv_irish_spk13,,9.0,"The house was built for Samuel Barnard, a merchant.",data/samples/accent_irish/26949296.wav
+accent_irish_19853173,accent_irish,cv_irish,cv_irish_spk14,m,3.94,Parvati recognized him and became very angry.,data/samples/accent_irish/19853173.wav
+accent_irish_18953293,accent_irish,cv_irish,cv_irish_spk15,m,5.42,"But you can't bring in a new president now, in this time.",data/samples/accent_irish/18953293.wav
+accent_irish_27165979,accent_irish,cv_irish,cv_irish_spk16,m,5.58,He published several books on these subjects.,data/samples/accent_irish/27165979.wav
+accent_irish_18845497,accent_irish,cv_irish,cv_irish_spk17,m,4.63,Difficulties between the two emerged in their marriage.,data/samples/accent_irish/18845497.wav
+accent_irish_17576768,accent_irish,cv_irish,cv_irish_spk18,f,3.86,But we never even got close to it?,data/samples/accent_irish/17576768.wav
+accent_irish_17576777,accent_irish,cv_irish,cv_irish_spk18,f,4.06,"Please use normal slashes, not backslashes.",data/samples/accent_irish/17576777.wav
+accent_irish_17403009,accent_irish,cv_irish,cv_irish_spk19,m,3.53,Every cloud has a silver lining.,data/samples/accent_irish/17403009.wav
+accent_irish_17728604,accent_irish,cv_irish,cv_irish_spk20,m,4.25,The carpenter offered me a discount of twenty percent.,data/samples/accent_irish/17728604.wav
+accent_irish_22112265,accent_irish,cv_irish,cv_irish_spk22,m,5.21,"Close by, to the south, is the fishing village of Craster.",data/samples/accent_irish/22112265.wav
+accent_irish_202179,accent_irish,cv_irish,cv_irish_spk23,m,4.46,I don't know why you boys are so good to me.,data/samples/accent_irish/202179.wav
+accent_irish_17367840,accent_irish,cv_irish,cv_irish_spk24,m,2.26,Why are you doing this?,data/samples/accent_irish/17367840.wav
+accent_irish_24986825,accent_irish,cv_irish,cv_irish_spk26,m,5.26,"They made it to the final, finishing in third place.",data/samples/accent_irish/24986825.wav
+accent_irish_20483338,accent_irish,cv_irish,cv_irish_spk1,m,4.99,These animals seem to prefer cooler temperatures.,data/samples/accent_irish/20483338.wav
+accent_irish_25167305,accent_irish,cv_irish,cv_irish_spk3,f,4.79,Once a year the pool is closed for several weeks for more extensive cleaning.,data/samples/accent_irish/25167305.wav
+accent_irish_591885,accent_irish,cv_irish,cv_irish_spk5,m,4.34,I can send contextual information to it from other apps.,data/samples/accent_irish/591885.wav
+accent_irish_3247,accent_irish,cv_irish,cv_irish_spk6,f,3.62,"When you find a bug in software, please report it.",data/samples/accent_irish/3247.wav
+noisy_20db_40921264,noisy_20db,cv_south_asian,cv_south_asian_spk0,,6.05,"He did not play in the World Series, but received a ring regardless.",data/samples/noisy_20db/40921264.wav
+noisy_10db_40921264,noisy_10db,cv_south_asian,cv_south_asian_spk0,,6.05,"He did not play in the World Series, but received a ring regardless.",data/samples/noisy_10db/40921264.wav
+noisy_0db_40921264,noisy_0db,cv_south_asian,cv_south_asian_spk0,,6.05,"He did not play in the World Series, but received a ring regardless.",data/samples/noisy_0db/40921264.wav
+phone_8k_40921264,phone_8k,cv_south_asian,cv_south_asian_spk0,,6.05,"He did not play in the World Series, but received a ring regardless.",data/samples/phone_8k/40921264.wav
+noisy_20db_20264170,noisy_20db,cv_south_asian,cv_south_asian_spk10,m,6.91,Buyers must continue to rely on their own knowledge and judgment.,data/samples/noisy_20db/20264170.wav
+noisy_10db_20264170,noisy_10db,cv_south_asian,cv_south_asian_spk10,m,6.91,Buyers must continue to rely on their own knowledge and judgment.,data/samples/noisy_10db/20264170.wav
+noisy_0db_20264170,noisy_0db,cv_south_asian,cv_south_asian_spk10,m,6.91,Buyers must continue to rely on their own knowledge and judgment.,data/samples/noisy_0db/20264170.wav
+phone_8k_20264170,phone_8k,cv_south_asian,cv_south_asian_spk10,m,6.91,Buyers must continue to rely on their own knowledge and judgment.,data/samples/phone_8k/20264170.wav
+noisy_20db_27302134,noisy_20db,cv_south_asian,cv_south_asian_spk14,m,4.61,Each player always plays the same set of cards.,data/samples/noisy_20db/27302134.wav
+noisy_10db_27302134,noisy_10db,cv_south_asian,cv_south_asian_spk14,m,4.61,Each player always plays the same set of cards.,data/samples/noisy_10db/27302134.wav
+noisy_0db_27302134,noisy_0db,cv_south_asian,cv_south_asian_spk14,m,4.61,Each player always plays the same set of cards.,data/samples/noisy_0db/27302134.wav
+phone_8k_27302134,phone_8k,cv_south_asian,cv_south_asian_spk14,m,4.61,Each player always plays the same set of cards.,data/samples/phone_8k/27302134.wav
+noisy_20db_17425029,noisy_20db,cv_south_asian,cv_south_asian_spk27,m,8.18,"Jellyfish can cause serious injuries, the physician explained to the patient.",data/samples/noisy_20db/17425029.wav
+noisy_10db_17425029,noisy_10db,cv_south_asian,cv_south_asian_spk27,m,8.18,"Jellyfish can cause serious injuries, the physician explained to the patient.",data/samples/noisy_10db/17425029.wav
+noisy_0db_17425029,noisy_0db,cv_south_asian,cv_south_asian_spk27,m,8.18,"Jellyfish can cause serious injuries, the physician explained to the patient.",data/samples/noisy_0db/17425029.wav
+phone_8k_17425029,phone_8k,cv_south_asian,cv_south_asian_spk27,m,8.18,"Jellyfish can cause serious injuries, the physician explained to the patient.",data/samples/phone_8k/17425029.wav
+noisy_20db_689462,noisy_20db,cv_south_asian,cv_south_asian_spk41,m,4.7,Is there a history of heart disease in your family?,data/samples/noisy_20db/689462.wav
+noisy_10db_689462,noisy_10db,cv_south_asian,cv_south_asian_spk41,m,4.7,Is there a history of heart disease in your family?,data/samples/noisy_10db/689462.wav
+noisy_0db_689462,noisy_0db,cv_south_asian,cv_south_asian_spk41,m,4.7,Is there a history of heart disease in your family?,data/samples/noisy_0db/689462.wav
+phone_8k_689462,phone_8k,cv_south_asian,cv_south_asian_spk41,m,4.7,Is there a history of heart disease in your family?,data/samples/phone_8k/689462.wav
+noisy_20db_17281454,noisy_20db,cv_south_asian,cv_south_asian_spk46,f,6.36,"Is it possible, if you would be so kind, to lend me your brolly for today?",data/samples/noisy_20db/17281454.wav
+noisy_10db_17281454,noisy_10db,cv_south_asian,cv_south_asian_spk46,f,6.36,"Is it possible, if you would be so kind, to lend me your brolly for today?",data/samples/noisy_10db/17281454.wav
+noisy_0db_17281454,noisy_0db,cv_south_asian,cv_south_asian_spk46,f,6.36,"Is it possible, if you would be so kind, to lend me your brolly for today?",data/samples/noisy_0db/17281454.wav
+phone_8k_17281454,phone_8k,cv_south_asian,cv_south_asian_spk46,f,6.36,"Is it possible, if you would be so kind, to lend me your brolly for today?",data/samples/phone_8k/17281454.wav
+noisy_20db_1009486,noisy_20db,cv_south_asian,cv_south_asian_spk51,f,4.58,The facts don't always show who is right.,data/samples/noisy_20db/1009486.wav
+noisy_10db_1009486,noisy_10db,cv_south_asian,cv_south_asian_spk51,f,4.58,The facts don't always show who is right.,data/samples/noisy_10db/1009486.wav
+noisy_0db_1009486,noisy_0db,cv_south_asian,cv_south_asian_spk51,f,4.58,The facts don't always show who is right.,data/samples/noisy_0db/1009486.wav
+phone_8k_1009486,phone_8k,cv_south_asian,cv_south_asian_spk51,f,4.58,The facts don't always show who is right.,data/samples/phone_8k/1009486.wav
+noisy_20db_17322377,noisy_20db,cv_south_asian,cv_south_asian_spk56,m,4.25,She's low down on our list of concerns at the moment.,data/samples/noisy_20db/17322377.wav
+noisy_10db_17322377,noisy_10db,cv_south_asian,cv_south_asian_spk56,m,4.25,She's low down on our list of concerns at the moment.,data/samples/noisy_10db/17322377.wav
+noisy_0db_17322377,noisy_0db,cv_south_asian,cv_south_asian_spk56,m,4.25,She's low down on our list of concerns at the moment.,data/samples/noisy_0db/17322377.wav
+phone_8k_17322377,phone_8k,cv_south_asian,cv_south_asian_spk56,m,4.25,She's low down on our list of concerns at the moment.,data/samples/phone_8k/17322377.wav
+noisy_20db_193310,noisy_20db,cv_south_asian,cv_south_asian_spk63,m,3.58,Proteins have many functions in the human body.,data/samples/noisy_20db/193310.wav
+noisy_10db_193310,noisy_10db,cv_south_asian,cv_south_asian_spk63,m,3.58,Proteins have many functions in the human body.,data/samples/noisy_10db/193310.wav
+noisy_0db_193310,noisy_0db,cv_south_asian,cv_south_asian_spk63,m,3.58,Proteins have many functions in the human body.,data/samples/noisy_0db/193310.wav
+phone_8k_193310,phone_8k,cv_south_asian,cv_south_asian_spk63,m,3.58,Proteins have many functions in the human body.,data/samples/phone_8k/193310.wav
+noisy_20db_17434904,noisy_20db,cv_south_asian,cv_south_asian_spk79,f,4.94,How does slow cooling of the hot gaseous state result in pure crystals?,data/samples/noisy_20db/17434904.wav
+noisy_10db_17434904,noisy_10db,cv_south_asian,cv_south_asian_spk79,f,4.94,How does slow cooling of the hot gaseous state result in pure crystals?,data/samples/noisy_10db/17434904.wav
+noisy_0db_17434904,noisy_0db,cv_south_asian,cv_south_asian_spk79,f,4.94,How does slow cooling of the hot gaseous state result in pure crystals?,data/samples/noisy_0db/17434904.wav
+phone_8k_17434904,phone_8k,cv_south_asian,cv_south_asian_spk79,f,4.94,How does slow cooling of the hot gaseous state result in pure crystals?,data/samples/phone_8k/17434904.wav
