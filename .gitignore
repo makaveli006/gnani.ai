@@ -1,0 +1,17 @@
+# datasets and generated audio - too big for git, see README for download steps
+data/
+outputs/audio/
+
+# personal / assignment files
+*.docx
+*.pdf
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# secrets
+.env
