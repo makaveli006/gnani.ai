@@ -1,0 +1,318 @@
+p01   Kaveri  ok
+p01   Pranav  ok
+p02   Kaveri  ok
+p02   Pranav  ok
+p03   Kaveri  ok
+p03   Pranav  ok
+p04   Kaveri  ok
+p04   Pranav  ok
+p05   Kaveri  ok
+p05   Pranav  ok
+p06   Kaveri  ok
+p06   Pranav  ok
+nr01  Kaveri  ok
+nr01  Pranav  ok
+nr02  Kaveri  ok
+nr02  Pranav  ok
+nr03  Kaveri  ok
+nr03  Pranav  ok
+nr04  Kaveri  ok
+nr04  Pranav  ok
+nr05  Kaveri  ok
+nr05  Pranav  ok
+nr06  Kaveri  ok
+nr06  Pranav  ok
+nr07  Kaveri  ok
+nr07  Pranav  ok
+nr08  Kaveri  ok
+nr08  Pranav  ok
+nw01  Kaveri  ok
+nw01  Pranav  ok
+nw02  Kaveri  ok
+nw02  Pranav  ok
+nw03  Kaveri  ok
+nw03  Pranav  ok
+nw04  Kaveri  ok
+nw04  Pranav  ok
+nw05  Kaveri  ok
+nw05  Pranav  ok
+nw06  Kaveri  ok
+nw06  Pranav  ok
+nw07  Kaveri  ok
+nw07  Pranav  ok
+nw08  Kaveri  ok
+nw08  Pranav  ok
+d01   Kaveri  ok
+d01   Pranav  ok
+d02   Kaveri  ok
+d02   Pranav  ok
+d03   Kaveri  ok
+d03   Pranav  ok
+d04   Kaveri  ok
+d04   Pranav  ok
+d05   Kaveri  ok
+d05   Pranav  ok
+i01   Kaveri  ok
+i01   Pranav  ok
+i02   Kaveri  ok
+i02   Pranav  ok
+i03   Kaveri  ok
+i03   Pranav  ok
+i04   Kaveri  ok
+i04   Pranav  ok
+a01   Kaveri  ok
+a01   Pranav  ok
+a02   Kaveri  ok
+a02   Pranav  ok
+a03   Kaveri  ok
+a03   Pranav  ok
+a04   Kaveri  ok
+a04   Pranav  ok
+a05   Kaveri  ok
+a05   Pranav  ok
+a06   Kaveri  ok
+a06   Pranav  ok
+m01   Kaveri  ok
+m01   Pranav  ok
+m02   Kaveri  ok
+m02   Pranav  ok
+m03   Kaveri  ok
+m03   Pranav  ok
+m04   Kaveri  ok
+m04   Pranav  ok
+m05   Kaveri  ok
+m05   Pranav  ok
+h01   Poorvi  ok
+h01   Kaveri  ok
+h02   Poorvi  ok
+h02   Kaveri  ok
+h03   Poorvi  ok
+h03   Kaveri  ok
+h04   Poorvi  ok
+h04   Kaveri  ok
+h05   Poorvi  ok
+h05   Kaveri  ok
+t01   Kaveri  ok
+t01   Pranav  ok
+t02   Kaveri  ok
+t02   Pranav  ok
+t03   Kaveri  ok
+t03   Pranav  ok
+t04   Kaveri  ok
+t04   Pranav  ok
+e01   Kaveri  ok
+e01   Pranav  ok
+e02   Kaveri  ok
+e02   Pranav  ok
+l01   Kaveri  ok
+l01   Pranav  ok
+l02   Kaveri  ok
+l02   Pranav  ok
+
+loading Whisper...
+GPU not usable (Library cublas64_12.dll is not found or cannot be loaded), using CPU
+p01   Kaveri  WER=0.00 MOS=3.55 
+p01   Pranav  WER=0.00 MOS=3.78 
+p02   Kaveri  WER=0.00 MOS=3.18 odd_speaking_rate
+p02   Pranav  WER=0.00 MOS=3.44 odd_speaking_rate
+p03   Kaveri  WER=0.00 MOS=3.37 odd_speaking_rate
+p03   Pranav  WER=0.00 MOS=3.68 odd_speaking_rate
+p04   Kaveri  WER=0.00 MOS=3.15 odd_speaking_rate
+p04   Pranav  WER=0.00 MOS=3.42 
+p05   Kaveri  WER=0.00 MOS=3.14 odd_speaking_rate
+p05   Pranav  WER=0.00 MOS=3.52 odd_speaking_rate
+p06   Kaveri  WER=0.00 MOS=2.89 odd_speaking_rate
+p06   Pranav  WER=0.00 MOS=2.84 odd_speaking_rate
+nr01  Kaveri  WER=0.42 MOS=3.23 
+nr01  Pranav  WER=0.33 MOS=3.88 
+nr02  Kaveri  WER=0.30 MOS=3.09 
+nr02  Pranav  WER=0.30 MOS=3.81 
+nr03  Kaveri  WER=0.46 MOS=3.10 
+nr03  Pranav  WER=0.46 MOS=3.68 
+nr04  Kaveri  WER=0.33 MOS=3.13 
+nr04  Pranav  WER=0.22 MOS=3.62 
+nr05  Kaveri  WER=0.56 MOS=3.21 
+nr05  Pranav  WER=0.56 MOS=3.80 
+nr06  Kaveri  WER=0.67 MOS=3.10 
+nr06  Pranav  WER=0.58 MOS=3.78 
+nr07  Kaveri  WER=0.60 MOS=2.94 odd_speaking_rate
+nr07  Pranav  WER=0.60 MOS=3.53 odd_speaking_rate
+nr08  Kaveri  WER=0.79 MOS=3.56 
+nr08  Pranav  WER=0.79 MOS=4.05 
+nw01  Kaveri  WER=0.33 MOS=3.44 
+nw01  Pranav  WER=0.33 MOS=3.68 
+nw02  Kaveri  WER=0.30 MOS=3.20 
+nw02  Pranav  WER=0.30 MOS=3.48 
+nw03  Kaveri  WER=0.46 MOS=3.16 
+nw03  Pranav  WER=0.46 MOS=3.55 
+nw04  Kaveri  WER=0.33 MOS=3.37 
+nw04  Pranav  WER=0.22 MOS=3.82 
+nw05  Kaveri  WER=0.61 MOS=3.54 
+nw05  Pranav  WER=0.56 MOS=3.85 
+nw06  Kaveri  WER=0.58 MOS=3.22 
+nw06  Pranav  WER=0.58 MOS=3.71 
+nw07  Kaveri  WER=0.40 MOS=2.93 
+nw07  Pranav  WER=0.40 MOS=3.67 
+nw08  Kaveri  WER=0.79 MOS=3.53 
+nw08  Pranav  WER=0.79 MOS=4.10 
+d01   Kaveri  WER=0.57 MOS=3.20 
+d01   Pranav  WER=0.57 MOS=3.47 
+d02   Kaveri  WER=0.14 MOS=3.14 
+d02   Pranav  WER=0.14 MOS=3.61 
+d03   Kaveri  WER=0.17 MOS=3.27 
+d03   Pranav  WER=0.50 MOS=3.78 
+d04   Kaveri  WER=0.50 MOS=3.34 
+d04   Pranav  WER=0.50 MOS=3.87 
+d05   Kaveri  WER=0.22 MOS=3.17 
+d05   Pranav  WER=0.22 MOS=3.38 
+i01   Kaveri  WER=0.67 MOS=3.36 
+i01   Pranav  WER=0.67 MOS=4.00 
+i02   Kaveri  WER=0.55 MOS=3.31 
+i02   Pranav  WER=0.55 MOS=3.70 
+i03   Kaveri  WER=0.47 MOS=3.02 
+i03   Pranav  WER=0.47 MOS=3.56 
+i04   Kaveri  WER=0.36 MOS=3.36 
+i04   Pranav  WER=0.36 MOS=4.14 
+a01   Kaveri  WER=0.27 MOS=3.61 
+a01   Pranav  WER=0.27 MOS=3.94 
+a02   Kaveri  WER=0.40 MOS=3.42 
+a02   Pranav  WER=0.40 MOS=4.07 
+a03   Kaveri  WER=0.30 MOS=3.18 odd_speaking_rate
+a03   Pranav  WER=0.30 MOS=3.70 
+a04   Kaveri  WER=0.10 MOS=3.26 odd_speaking_rate
+a04   Pranav  WER=0.20 MOS=3.77 odd_speaking_rate
+a05   Kaveri  WER=0.25 MOS=3.26 odd_speaking_rate
+a05   Pranav  WER=0.25 MOS=3.81 odd_speaking_rate
+a06   Kaveri  WER=0.09 MOS=3.48 
+a06   Pranav  WER=0.09 MOS=3.85 
+m01   Kaveri  WER=0.33 MOS=3.20 
+m01   Pranav  WER=0.33 MOS=3.46 
+m02   Kaveri  WER=0.00 MOS=3.38 
+m02   Pranav  WER=0.00 MOS=3.65 
+m03   Kaveri  WER=0.29 MOS=3.10 
+m03   Pranav  WER=0.29 MOS=3.53 
+m04   Kaveri  WER=0.00 MOS=3.21 
+m04   Pranav  WER=0.00 MOS=3.69 
+m05   Kaveri  WER=0.00 MOS=3.26 
+m05   Pranav  WER=0.00 MOS=3.37 
+h01   Poorvi  WER=0.00 MOS=4.04 
+h01   Kaveri  WER=0.15 MOS=3.55 
+h02   Poorvi  WER=0.00 MOS=3.99 
+h02   Kaveri  WER=0.00 MOS=3.77 
+h03   Poorvi  WER=0.20 MOS=3.56 
+h03   Kaveri  WER=0.20 MOS=3.44 
+h04   Poorvi  WER=0.27 MOS=3.56 
+h04   Kaveri  WER=0.18 MOS=3.28 
+h05   Poorvi  WER=0.29 MOS=3.68 
+h05   Kaveri  WER=0.29 MOS=3.10 odd_speaking_rate
+t01   Kaveri  WER=0.00 MOS=3.43 odd_speaking_rate
+t01   Pranav  WER=0.00 MOS=3.53 odd_speaking_rate
+t02   Kaveri  WER=0.00 MOS=3.29 odd_speaking_rate
+t02   Pranav  WER=0.00 MOS=3.42 
+t03   Kaveri  WER=0.00 MOS=3.21 
+t03   Pranav  WER=0.00 MOS=3.56 odd_speaking_rate
+t04   Kaveri  WER=0.00 MOS=3.05 
+t04   Pranav  WER=0.00 MOS=3.46 
+e01   Kaveri  WER=0.18 MOS=3.37 
+e01   Pranav  WER=0.18 MOS=3.98 
+e02   Kaveri  WER=0.55 MOS=3.18 
+e02   Pranav  WER=0.55 MOS=3.85 
+l01   Kaveri  WER=0.01 MOS=3.76 
+l01   Pranav  WER=0.02 MOS=4.01 
+l02   Kaveri  WER=0.06 MOS=3.52 
+l02   Pranav  WER=0.06 MOS=4.23 
+
+          category  voice  n   WER   CER accept_pass  MOS  ttfb_s   RTF  flagged
+             plain Kaveri  6 0.000 0.000        None 3.21    0.38 0.308        5
+             plain Pranav  6 0.000 0.000        None 3.45    0.39 0.315        4
+       numbers_raw Kaveri  8   NaN   NaN         8/8 3.17    0.53 0.261        1
+       numbers_raw Pranav  8   NaN   NaN         8/8 3.77    0.57 0.294        1
+numbers_prewritten Kaveri  8   NaN   NaN         8/8 3.30    0.91 0.381        0
+numbers_prewritten Pranav  8   NaN   NaN         8/8 3.73    0.37 0.238        0
+       dates_times Kaveri  5   NaN   NaN         5/5 3.22    0.76 0.407        0
+       dates_times Pranav  5   NaN   NaN         5/5 3.62    0.75 0.437        0
+         phone_ids Kaveri  4   NaN   NaN         4/4 3.26    0.36 0.207        0
+         phone_ids Pranav  4   NaN   NaN         4/4 3.85    0.39 0.225        0
+          acronyms Kaveri  6   NaN   NaN         6/6 3.37    0.52 0.291        3
+          acronyms Pranav  6   NaN   NaN         5/6 3.86    0.49 0.280        2
+      indian_names Kaveri  5 0.105 0.025        None 3.23    0.55 0.335        0
+      indian_names Pranav  5 0.105 0.025        None 3.54    0.38 0.242        0
+          hinglish Kaveri  5 0.148 0.075        None 3.43    0.38 0.251        1
+          hinglish Poorvi  5 0.130 0.057        None 3.77    0.35 0.233        0
+      tricky_words Kaveri  4 0.000 0.000        None 3.24    0.40 0.294        2
+      tricky_words Pranav  4 0.000 0.000        None 3.49    0.62 0.328        2
+         email_url Kaveri  2   NaN   NaN         0/2 3.28    0.33 0.184        0
+         email_url Pranav  2   NaN   NaN         0/2 3.92    0.36 0.198        0
+         long_form Kaveri  2 0.035 0.024        None 3.64    0.50 0.060        0
+         long_form Pranav  2 0.040 0.027        None 4.12    0.31 0.060        0
+
+Raw numbers vs written-out numbers (correct / total):
+          category  voice sum  count
+numbers_prewritten Kaveri   8      8
+numbers_prewritten Pranav   8      8
+       numbers_raw Kaveri   8      8
+       numbers_raw Pranav   8      8
+
+Time to first audio: median 0.35s, p90 1.29s
+RTF: median 0.232, worst 1.171
+MOS by voice: {'Kaveri': 3.28, 'Poorvi': 3.77, 'Pranav': 3.7}
+
+Failed normalization checks:
+  a06 Pranav: Your CIBIL score is good, so the loan is pre-approved.
+        heard: Your Sible score is good, so the loan is pre-approved.
+  e01 Kaveri: Write to us at support@hdfcbank.com for help.
+        heard: write to us at support at hdfsbank.com for help.
+  e01 Pranav: Write to us at support@hdfcbank.com for help.
+        heard: Write to us at support at hdfsbank.com for help.
+  e02 Kaveri: Visit www.gnani.ai to know more.
+        heard: Visit www.gyani.ai to know more.
+  e02 Pranav: Visit www.gnani.ai to know more.
+        heard: Visit www.gyani.ai to know more.
+
+Worst intelligibility (WER categories):
+  0.33 m01 Kaveri: This is Venkataraman calling from Thiruvananthapuram.
+        heard: This is Venkat Raman calling from Thiruvananthapuram.
+  0.33 m01 Pranav: This is Venkataraman calling from Thiruvananthapuram.
+        heard: This is Venkat Araman calling from Thiruvananthapuram.
+  0.29 h05 Poorvi: Thank you sir, aapka din shubh ho.
+        heard: Thank you, sir. Aapka din shubho.
+  0.29 m03 Pranav: Our Visakhapatnam branch manager is Mr. Subrahmanyam.
+        heard: Our Visakhapatnam branch manager is Mr. Subramaniam.
+  0.29 m03 Kaveri: Our Visakhapatnam branch manager is Mr. Subrahmanyam.
+        heard: Our Visakhapatnam branch manager is Mr. Subramanyam.
+  0.29 h05 Kaveri: Thank you sir, aapka din shubh ho.
+        heard: Thank you, sir. Aapka din shubho.
+  0.27 h04 Poorvi: Aapka refund five to seven working days mein credit ho jayega.
+        heard: Aapka refund 5 to 7 working days mein kredit ho jayega.
+  0.20 h03 Poorvi: Kya main aapke account ki details verify kar sakti hoon?
+        heard: kya mai aapki account ki details verify kar sakti hoon?
+
+Reliability flags: 21 clips
+  p02 Kaveri: odd_speaking_rate
+  p02 Pranav: odd_speaking_rate
+  p03 Kaveri: odd_speaking_rate
+  p03 Pranav: odd_speaking_rate
+  p04 Kaveri: odd_speaking_rate
+  p05 Kaveri: odd_speaking_rate
+  p05 Pranav: odd_speaking_rate
+  p06 Kaveri: odd_speaking_rate
+  p06 Pranav: odd_speaking_rate
+  nr07 Kaveri: odd_speaking_rate
+  nr07 Pranav: odd_speaking_rate
+  a03 Kaveri: odd_speaking_rate
+  a04 Kaveri: odd_speaking_rate
+  a04 Pranav: odd_speaking_rate
+  a05 Kaveri: odd_speaking_rate
+  a05 Pranav: odd_speaking_rate
+  h05 Kaveri: odd_speaking_rate
+  t01 Kaveri: odd_speaking_rate
+  t01 Pranav: odd_speaking_rate
+  t02 Kaveri: odd_speaking_rate
+  t03 Pranav: odd_speaking_rate
+
+Human baseline (30 real Indian English clips from Part 1):
+  Whisper WER on them = 0.045  (the judge's own error rate)
+  speaking rate = 2.81 words/s  (Timbre median 3.90)
+  DNSMOS = 3.49  (Timbre mean 3.49)
+
+timbre-v3.0 check: works

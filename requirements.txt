@@ -8,4 +8,5 @@ soundfile
 sounddevice
 faster-whisper
 speechmos
+librosa
 pytest

@@ -10,7 +10,7 @@ For each sentence in tts_sentences.csv and each voice:
   3. we score it:
        - intelligibility: WER/CER of Whisper's text vs what should be said
        - normalization: did numbers / dates / acronyms come out right
-       - naturalness: UTMOS predicted MOS (1-5)
+       - naturalness: DNSMOS predicted MOS (1-5)
        - speed: time to first audio, total time, RTF
        - reliability: empty, clipped, long silences, odd speaking rate
 """
@@ -45,7 +45,9 @@ ORDER = ["plain", "numbers_raw", "numbers_prewritten", "dates_times", "phone_ids
 def load_whisper():
     from faster_whisper import WhisperModel
     try:
-        return WhisperModel("small", device="cuda", compute_type="float16")
+        model = WhisperModel("small", device="cuda", compute_type="float16")
+        list(model.transcribe(np.zeros(16000, dtype="float32"))[0])  # fails here if CUDA libs are missing
+        return model
     except Exception as e:
         print(f"GPU not usable ({e}), using CPU")
         return WhisperModel("small", device="cpu", compute_type="int8")
@@ -59,14 +61,13 @@ def whisper_text(model, wav_path, hinglish=False):
     return " ".join(s.text.strip() for s in segments)
 
 
-def load_utmos():
-    from speechmos import utmos
-    return utmos
-
-
-def utmos_score(utmos, audio, sr):
-    audio16 = resample_poly(audio, 16000, sr).astype("float32")
-    return float(utmos.run(audio16, sr=16000))
+def mos_scores(audio, sr):
+    # DNSMOS (Microsoft): predicts the 1-5 score listeners would give.
+    # p808_mos = overall quality, ovrl_mos = overall incl. noise/distortion
+    from speechmos import dnsmos
+    audio16 = np.clip(resample_poly(audio, 16000, sr), -1, 1).astype("float32")
+    result = dnsmos.run(audio16, sr=16000)
+    return round(float(result["p808_mos"]), 2), round(float(result["ovrl_mos"]), 2)
 
 
 def audio_checks(audio, sr, n_words):
@@ -96,16 +97,21 @@ def audio_checks(audio, sr, n_words):
             "flags": ",".join(flags)}
 
 
-def judge_calibration(whisper):
-    # how good is Whisper itself on real Indian English speech?
+def human_baseline(whisper):
+    # the same checks on 30 real Indian English recordings from Part 1:
+    # how good is Whisper itself, and how fast and how "good" do real people sound?
     m = pd.read_csv("data/manifest.csv")
     m = m[m.category == "accent_indian"]
     errors = words = 0
+    rates, mos = [], []
     for _, row in m.iterrows():
         c = error_counts(row.reference, whisper_text(whisper, row.wav_path))
         errors += c["sub"] + c["del"] + c["ins"]
         words += c["ref_words"]
-    return errors / words
+        audio, sr = sf.read(row.wav_path, dtype="float32")
+        rates.append(audio_checks(audio, sr, c["ref_words"])["words_per_sec"])
+        mos.append(mos_scores(audio, sr)[0])
+    return errors / words, np.median(rates), np.mean(mos)
 
 
 def main():
@@ -129,9 +135,8 @@ def main():
             jobs.append((s, voice, wav, meta))
 
     # 2. score
-    print("\nloading Whisper and UTMOS...")
+    print("\nloading Whisper...")
     whisper = load_whisper()
-    utmos = load_utmos()
 
     rows = []
     for s, voice, wav, meta in jobs:
@@ -141,6 +146,7 @@ def main():
             continue
         audio, sr = sf.read(wav, dtype="float32")
         heard = whisper_text(whisper, wav, hinglish=s["language"] == "hi-en")
+        mos, ovrl = mos_scores(audio, sr)
         counts = error_counts(s["expected_spoken"], heard)
         rows.append({
             "id": s["id"],
@@ -152,19 +158,20 @@ def main():
             "wer": round((counts["sub"] + counts["del"] + counts["ins"]) / counts["ref_words"], 3),
             "cer": round(counts["char_errors"] / counts["ref_chars"], 3),
             "accept_ok": matches_any(heard, s["accept"]) if s["accept"] else None,
-            "utmos": round(utmos_score(utmos, audio, sr), 2),
+            "mos": mos,
+            "mos_ovrl": ovrl,
             "ttfb": meta["ttfb"],
             "total_time": meta["total"],
             "audio_seconds": meta["audio_seconds"],
             "rtf": round(meta["total"] / meta["audio_seconds"], 3),
             **audio_checks(audio, sr, counts["ref_words"]),
         })
-        print(f"{s['id']:5s} {voice:7s} WER={rows[-1]['wer']:.2f} MOS={rows[-1]['utmos']:.2f} {rows[-1]['flags']}")
+        print(f"{s['id']:5s} {voice:7s} WER={rows[-1]['wer']:.2f} MOS={rows[-1]['mos']:.2f} {rows[-1]['flags']}")
 
     df = pd.DataFrame(rows)
     Path("results").mkdir(exist_ok=True)
     df.to_csv("results/tts_results.csv", index=False)
-    ok = df[df.flags.fillna("").str.contains("api_error") == False]
+    ok = df[df["flags"].fillna("").str.contains("api_error") == False]
 
     # 3. summary per category and voice
     summary = []
@@ -180,10 +187,10 @@ def main():
                 "WER": round((d["sub"] + d["del"] + d["ins"]).sum() / d.ref_words.sum(), 3) if wer_cat else None,
                 "CER": round(d.char_errors.sum() / d.ref_chars.sum(), 3) if wer_cat else None,
                 "accept_pass": f"{int(acc.sum())}/{len(acc)}" if len(acc) else None,
-                "UTMOS": round(d.utmos.mean(), 2),
+                "MOS": round(d.mos.mean(), 2),
                 "ttfb_s": round(d.ttfb.mean(), 2),
                 "RTF": round(d.rtf.mean(), 3),
-                "flagged": int((d.flags.fillna("") != "").sum()),
+                "flagged": int((d["flags"].fillna("") != "").sum()),
             })
     summary = pd.DataFrame(summary)
     summary.to_csv("results/tts_summary.csv", index=False)
@@ -200,8 +207,7 @@ def main():
     # overall speed
     print(f"\nTime to first audio: median {ok.ttfb.median():.2f}s, p90 {ok.ttfb.quantile(0.9):.2f}s")
     print(f"RTF: median {ok.rtf.median():.3f}, worst {ok.rtf.max():.3f}")
-    print(f"UTMOS: mean {ok.utmos.mean():.2f} (Kaveri {ok[ok.voice == 'Kaveri'].utmos.mean():.2f}, "
-          f"Pranav {ok[ok.voice == 'Pranav'].utmos.mean():.2f}, Poorvi {ok[ok.voice == 'Poorvi'].utmos.mean():.2f})")
+    print("MOS by voice:", ok.groupby("voice").mos.mean().round(2).to_dict())
 
     print("\nFailed normalization checks:")
     for _, r in ok[ok.accept_ok == False].iterrows():
@@ -212,24 +218,33 @@ def main():
     for _, r in w.iterrows():
         print(f"  {r.wer:.2f} {r.id} {r.voice}: {r.text}\n        heard: {r.whisper_heard}")
 
-    flagged = ok[ok.flags.fillna("") != ""]
+    flagged = ok[ok["flags"].fillna("") != ""]
     print(f"\nReliability flags: {len(flagged)} clips")
     for _, r in flagged.iterrows():
-        print(f"  {r.id} {r.voice}: {r.flags}")
+        print(f"  {r.id} {r.voice}: {r['flags']}")
 
     if not args.limit:
-        print(f"\nJudge check: Whisper WER on 30 real Indian English clips = {judge_calibration(whisper):.3f}")
+        judge_wer, human_rate, human_mos = human_baseline(whisper)
+        print(f"\nHuman baseline (30 real Indian English clips from Part 1):")
+        print(f"  Whisper WER on them = {judge_wer:.3f}  (the judge's own error rate)")
+        print(f"  speaking rate = {human_rate:.2f} words/s  (Timbre median {ok.words_per_sec.median():.2f})")
+        print(f"  DNSMOS = {human_mos:.2f}  (Timbre mean {ok.mos.mean():.2f})")
+
+        # one call to see if the newer model works at all (Prisma v3.0 did not)
+        meta = synthesize(sentences[0]["text"], AUDIO_DIR / "timbre-v3.0_Sohini" / "p01.wav",
+                          voice="Sohini", language="en-IN", model="timbre-v3.0")
+        print(f"\ntimbre-v3.0 check: {'works' if meta.get('ok') else meta}")
 
     # chart
-    by_cat = ok.groupby("category").utmos.mean().reindex([c for c in ORDER if c in set(ok.category)])
+    by_cat = ok.groupby("category").mos.mean().reindex([c for c in ORDER if c in set(ok.category)])
     plt.figure(figsize=(10, 4))
     plt.bar(by_cat.index, by_cat.values)
-    plt.ylabel("UTMOS (1-5)")
+    plt.ylabel("DNSMOS P.808 (1-5)")
     plt.ylim(1, 5)
     plt.title(f"{MODEL} predicted naturalness by category")
     plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
-    plt.savefig("results/tts_utmos_by_category.png", dpi=120)
+    plt.savefig("results/tts_mos_by_category.png", dpi=120)
 
 
 if __name__ == "__main__":
