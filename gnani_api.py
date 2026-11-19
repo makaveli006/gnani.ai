@@ -11,7 +11,9 @@ import os
 import time
 from pathlib import Path
 
+import numpy as np
 import requests
+import soundfile as sf
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -89,47 +91,63 @@ def tts_payload(text, voice, language, model, sample_rate):
 
 
 def synthesize(text, out_wav, voice="Kaveri", language="en-IN", model="timbre-v2.5", sample_rate=24000):
-    """Timbre REST call. Saves the wav and returns timing info."""
+    """Timbre streaming (SSE) call. One call gives us everything:
+    - ttfb: time until the first audio chunk arrives (what a caller feels)
+    - total: time until the last chunk
+    - the audio itself, saved as out_wav
+    The timing is saved next to the wav as .json, so a second run costs nothing."""
     out_wav = Path(out_wav)
     meta_path = out_wav.with_suffix(".json")
-    if out_wav.exists() and meta_path.exists():
+    if meta_path.exists():
         return json.loads(meta_path.read_text())
 
-    r, elapsed = post_with_retry(
-        f"{BASE_URL}/api/v1/tts/inference",
-        json=tts_payload(text, voice, language, model, sample_rate),
-    )
+    for attempt in range(4):
+        start = time.perf_counter()
+        r = requests.post(
+            f"{BASE_URL}/api/v1/tts/sse",
+            headers={"X-API-Key-ID": API_KEY},
+            json=tts_payload(text, voice, language, model, sample_rate),
+            stream=True,
+            timeout=120,
+        )
+        if r.status_code == 402:
+            raise RuntimeError("Out of credits (402)")
+        if r.status_code == 429 or r.status_code >= 500:
+            print(f"  {r.status_code}, retrying in {2 ** attempt}s")
+            time.sleep(2 ** attempt)
+            continue
+        break
+
     if r.status_code != 200:
         return {"ok": False, "http_status": r.status_code, "error": r.text[:200]}
 
+    chunks, ttfb, error = [], None, None
+    for line in r.iter_lines(decode_unicode=True):
+        if not line or not line.startswith("data:"):
+            continue
+        event = json.loads(line[5:])
+        if "message" in event and "audio" not in event:
+            error = event["message"]
+            break
+        if event.get("audio"):
+            if ttfb is None:
+                ttfb = time.perf_counter() - start
+            chunks.append(base64.b64decode(event["audio"]))
+        if event.get("is_final"):
+            break
+    total = time.perf_counter() - start
+
+    if error or not chunks:
+        return {"ok": False, "http_status": r.status_code, "error": error or "no audio"}
+
+    # first chunk starts with a 44-byte wav header whose size field is a
+    # "streaming" placeholder, so drop it and write a proper wav ourselves
+    pcm = b"".join(chunks)[44:]
+    audio = np.frombuffer(pcm[: len(pcm) // 2 * 2], dtype="<i2")
     out_wav.parent.mkdir(parents=True, exist_ok=True)
-    out_wav.write_bytes(r.content)
-    meta = {"ok": True, "total_latency": round(elapsed, 3)}
+    sf.write(out_wav, audio, sample_rate, subtype="PCM_16")
+
+    meta = {"ok": True, "ttfb": round(ttfb, 3), "total": round(total, 3),
+            "audio_seconds": round(len(audio) / sample_rate, 3)}
     meta_path.write_text(json.dumps(meta))
     return meta
-
-
-def time_to_first_audio(text, voice="Kaveri", language="en-IN", model="timbre-v2.5", sample_rate=24000):
-    """Timbre streaming (SSE) call. Only used to measure how fast
-    the first audio chunk arrives, which is what a voice agent feels."""
-    headers = {"X-API-Key-ID": API_KEY}
-    start = time.perf_counter()
-    first = None
-    with requests.post(
-        f"{BASE_URL}/api/v1/tts/sse",
-        headers=headers,
-        json=tts_payload(text, voice, language, model, sample_rate),
-        stream=True,
-        timeout=120,
-    ) as r:
-        if r.status_code != 200:
-            return None
-        for line in r.iter_lines(decode_unicode=True):
-            if not line or not line.startswith("data:"):
-                continue
-            event = json.loads(line[5:])
-            if event.get("audio") and first is None:
-                first = time.perf_counter() - start
-            if event.get("is_final"):
-                break
-    return round(first, 3) if first else None

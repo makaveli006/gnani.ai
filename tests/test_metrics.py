@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from metrics import normalize, edit_ops, wer, cer
+from metrics import normalize, edit_ops, wer, cer, matches_any
 
 
 def test_same_text_is_zero():
@@ -43,6 +43,21 @@ def test_normalize():
     assert normalize("Twenty-Three  Rupees.") == "twenty three rupees"
     assert normalize("I'm here, don't stop") == "i am here do not stop"
     assert normalize("the boys' ball") == "the boys ball"
+
+
+def test_accept_matches_digits_or_words():
+    accept = "two lakh fifty thousand|250000"
+    assert matches_any("Your loan of ₹2,50,000 is approved", accept)
+    assert matches_any("your loan of two lakh fifty thousand rupees", accept)
+    assert not matches_any("your loan of twenty five thousand", accept)
+
+
+def test_accept_needs_every_group():
+    accept = "345000;31st march|march 31"
+    assert matches_any("pay 3,45,000 before 31st March", accept)
+    assert not matches_any("pay 3,45,000 before the end of the month", accept)
+    # decimal point is kept, so 1.2 crore is not confused with 12 crore
+    assert not matches_any("12 crore", "1.2 crore")
 
 
 def test_matches_jiwer():

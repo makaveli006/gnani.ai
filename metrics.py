@@ -69,6 +69,21 @@ def cer(ref, hyp):
     return (s + d + i) / max(len(r), 1)
 
 
+def compact(text):
+    # "₹2,50,000" -> "250000", "10:30 AM" -> "1030am"; dots kept so 1.2 != 12
+    return re.sub(r"[^a-z0-9.%]", "", text.lower())
+
+
+def matches_any(transcript, accept):
+    """accept looks like "two lakh fifty thousand|250000;31st march|march 31".
+    '|' separates correct alternatives, ';' separates things that must all be said."""
+    said = compact(transcript)
+    for group in accept.split(";"):
+        if not any(compact(option) in said for option in group.split("|")):
+            return False
+    return True
+
+
 def error_counts(ref, hyp):
     """Counts used for corpus-level WER/CER:
     total errors / total reference words (or characters)."""
