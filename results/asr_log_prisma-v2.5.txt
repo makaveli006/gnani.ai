@@ -162,18 +162,18 @@ Worst 10 clips:
   1.00  clean_us_1089-134686-0001
         ref: stuff it into you his belly counselled him
         hyp: 
+  1.00  clean_us_1188-133604-0000
+        ref: you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms
+        hyp: 
+  1.00  clean_us_1221-135766-0002
+        ref: yet these thoughts affected hester prynne less with hope than apprehension
+        hyp: 
   1.00  long_3729
         ref: to celebrate the arrival of her son silvia gave a splendid supper to which she had invited all her relatives and it was a good opportunity for me to make their acquaintance without saying it positively she made me understand that being herself an illustrious member of the republic of letters she was well aware that she was speaking to an insect
         hyp: 
   1.00  noisy_0db_20264170
         ref: Buyers must continue to rely on their own knowledge and judgment.
         hyp: one continued on the occurring and even will sound
-  1.00  clean_us_1221-135766-0002
-        ref: yet these thoughts affected hester prynne less with hope than apprehension
-        hyp: 
-  1.00  clean_us_1188-133604-0000
-        ref: you will find me continually speaking of four men titian holbein turner and tintoret in almost the same terms
-        hyp: 
   0.95  long_4507
         ref: chapter one origin it engenders a whole world la pegre for which read theft and a hell la pegrenne for which read hunger thus idleness is the mother she has a son theft and a daughter hunger what is slang
         hyp: thus idle  is fine

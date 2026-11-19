@@ -1,8 +1,8 @@
 """
 Part 2: evaluate Timbre (TTS).
 
-    python eval_tts.py              run everything
-    python eval_tts.py --limit 3    quick test on 3 sentences
+    uv run python eval_tts.py              run everything
+    uv run python eval_tts.py --limit 3    quick test on 3 sentences
 
 For each sentence in tts_sentences.csv and each voice:
   1. Timbre makes the audio (cached in results/tts_audio/)

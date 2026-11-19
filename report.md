@@ -85,7 +85,7 @@ Each of these becomes an automatic, repeatable measurement:
 | Reliable | Empty audio, clipping, long silences, and speaking rate outside 1.5–4.5 words/s. |
 
 **Human reference.** The same checks run on the 30 real Indian English recordings from Part 1:
-- Whisper's own WER on them is **4.5%**, so a TTS WER below that means "as clear as a real speaker".
+- Whisper's own WER on them is **5.1%**, so a TTS WER below that means "as clear as a real speaker".
 - Their DNSMOS is 3.49.
 - Their speaking rate is 2.8 words/s.
 
@@ -102,19 +102,19 @@ The 8 number sentences appear twice: as raw text ("₹2,50,000", "8.5%", "1800-2
 | Numbers, written as words | 8/8 | 8/8 | No difference from raw text |
 | Dates and times | 5/5 | 5/5 | 15/08/2025, 31-12-2026, 10:30 AM, 2 PM |
 | Phone numbers / PIN / OTP / account | 4/4 | 4/4 | "A/C" read as "account" |
-| Acronyms (KYC, EMI, UPI, NACH, PAN, Dr., Rd.) | 6/6 | 5/6 | Miss: CIBIL heard as "Sible" |
+| Acronyms (KYC, EMI, UPI, NACH, PAN, Dr., Rd.) | 6/6 | 5/6 | Miss: CIBIL heard as "Sibyl" |
 | Email / URL | 0/2 | 0/2 | See note below |
-| Indian names | WER 10.5%, CER 2.5% | same | Only spelling differences ("Venkat Raman", "Subramaniam") |
-| Hinglish | CER 7.5% (Kaveri) | 5.7% (Poorvi) | Mostly spelling ("shubho", "kredit") |
+| Indian names | WER 5.3%, CER 2.1% | WER 15.8%, CER 2.1% | Only spelling differences ("Venkat Araman", "Subramanyam", "call back") |
+| Hinglish | CER 7.9% (Kaveri) | 5.7% (Poorvi) | Mostly spelling ("shubho", "kredit", "5 to 7") |
 | Tricky words (read/read, wind/wind) | WER 0% | 0% | Whisper can't hear which pronunciation was used; checked by ear |
-| Long paragraphs (~100 words) | 3.5% | 4.0% | |
+| Long paragraphs (~100 words) | 4.0% | 4.0% | |
 | DNSMOS (mean) | 3.28 | **3.70** | Poorvi 3.77; human recordings 3.49 |
 
 Speed:
 - **Time to first audio:** median **0.35 s**, but p90 is 1.29 s, and 12 of 110 calls took over 1 s (worst 2.6 s).
 - **RTF:** median **0.23** (about 4× faster than real time). One short clip reached 1.17 because of a slow start.
 
-The email/URL "misses" need care. Whisper wrote "gyani.ai" for www.gnani.ai, and "Gnani" is pronounced "gyani". It wrote "hdfsbank.com" and "Sible" for CIBIL, which is also how CIBIL is pronounced. These look like the scorer's spelling rather than Timbre errors. *(Listening check: TO CONFIRM.)*
+The email/URL "misses" need care. Whisper wrote "gyani.ai" for www.gnani.ai, and "Gnani" is pronounced "gyani". It wrote "hdfsbank.com", and "Sibyl" for CIBIL, which is how CIBIL is pronounced. These look like the scorer's spelling rather than Timbre errors. *(Listening check: TO CONFIRM.)*
 
 **Where Timbre performs well and where it struggles**
 
@@ -145,3 +145,4 @@ Prisma is not yet ready for long recordings or very noisy environments.
 - **Speaker coverage:** Common Voice labels the accent only as "South Asia", and my own recordings are a single speaker.
 - **Automatic scores are approximate.** DNSMOS was built to score audio quality, so it is only a rough stand-in for naturalness. Whisper misspells names and Hinglish, so CER is the fairer score there. Homograph pronunciation was checked by ear.
 - **Only the v2.5 models were fully tested.**
+- **Whisper scores depend on library versions.** The first run used numpy 1.23 and changed a few name spellings compared with the locked environment (numpy 2.4). All numbers here come from the locked `uv.lock` environment.

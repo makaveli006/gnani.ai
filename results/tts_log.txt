@@ -133,7 +133,7 @@ nr04  Kaveri  WER=0.33 MOS=3.13
 nr04  Pranav  WER=0.22 MOS=3.62 
 nr05  Kaveri  WER=0.56 MOS=3.21 
 nr05  Pranav  WER=0.56 MOS=3.80 
-nr06  Kaveri  WER=0.67 MOS=3.10 
+nr06  Kaveri  WER=0.58 MOS=3.10 
 nr06  Pranav  WER=0.58 MOS=3.78 
 nr07  Kaveri  WER=0.60 MOS=2.94 odd_speaking_rate
 nr07  Pranav  WER=0.60 MOS=3.53 odd_speaking_rate
@@ -145,7 +145,7 @@ nw02  Kaveri  WER=0.30 MOS=3.20
 nw02  Pranav  WER=0.30 MOS=3.48 
 nw03  Kaveri  WER=0.46 MOS=3.16 
 nw03  Pranav  WER=0.46 MOS=3.55 
-nw04  Kaveri  WER=0.33 MOS=3.37 
+nw04  Kaveri  WER=0.22 MOS=3.37 
 nw04  Pranav  WER=0.22 MOS=3.82 
 nw05  Kaveri  WER=0.61 MOS=3.54 
 nw05  Pranav  WER=0.56 MOS=3.85 
@@ -180,12 +180,12 @@ a02   Pranav  WER=0.40 MOS=4.07
 a03   Kaveri  WER=0.30 MOS=3.18 odd_speaking_rate
 a03   Pranav  WER=0.30 MOS=3.70 
 a04   Kaveri  WER=0.10 MOS=3.26 odd_speaking_rate
-a04   Pranav  WER=0.20 MOS=3.77 odd_speaking_rate
+a04   Pranav  WER=0.00 MOS=3.77 odd_speaking_rate
 a05   Kaveri  WER=0.25 MOS=3.26 odd_speaking_rate
 a05   Pranav  WER=0.25 MOS=3.81 odd_speaking_rate
 a06   Kaveri  WER=0.09 MOS=3.48 
 a06   Pranav  WER=0.09 MOS=3.85 
-m01   Kaveri  WER=0.33 MOS=3.20 
+m01   Kaveri  WER=0.00 MOS=3.20 
 m01   Pranav  WER=0.33 MOS=3.46 
 m02   Kaveri  WER=0.00 MOS=3.38 
 m02   Pranav  WER=0.00 MOS=3.65 
@@ -194,7 +194,7 @@ m03   Pranav  WER=0.29 MOS=3.53
 m04   Kaveri  WER=0.00 MOS=3.21 
 m04   Pranav  WER=0.00 MOS=3.69 
 m05   Kaveri  WER=0.00 MOS=3.26 
-m05   Pranav  WER=0.00 MOS=3.37 
+m05   Pranav  WER=0.25 MOS=3.37 
 h01   Poorvi  WER=0.00 MOS=4.04 
 h01   Kaveri  WER=0.15 MOS=3.55 
 h02   Poorvi  WER=0.00 MOS=3.99 
@@ -202,7 +202,7 @@ h02   Kaveri  WER=0.00 MOS=3.77
 h03   Poorvi  WER=0.20 MOS=3.56 
 h03   Kaveri  WER=0.20 MOS=3.44 
 h04   Poorvi  WER=0.27 MOS=3.56 
-h04   Kaveri  WER=0.18 MOS=3.28 
+h04   Kaveri  WER=0.27 MOS=3.28 
 h05   Poorvi  WER=0.29 MOS=3.68 
 h05   Kaveri  WER=0.29 MOS=3.10 odd_speaking_rate
 t01   Kaveri  WER=0.00 MOS=3.43 odd_speaking_rate
@@ -214,17 +214,17 @@ t03   Pranav  WER=0.00 MOS=3.56 odd_speaking_rate
 t04   Kaveri  WER=0.00 MOS=3.05 
 t04   Pranav  WER=0.00 MOS=3.46 
 e01   Kaveri  WER=0.18 MOS=3.37 
-e01   Pranav  WER=0.18 MOS=3.98 
+e01   Pranav  WER=0.36 MOS=3.98 
 e02   Kaveri  WER=0.55 MOS=3.18 
 e02   Pranav  WER=0.55 MOS=3.85 
-l01   Kaveri  WER=0.01 MOS=3.76 
+l01   Kaveri  WER=0.02 MOS=3.76 
 l01   Pranav  WER=0.02 MOS=4.01 
 l02   Kaveri  WER=0.06 MOS=3.52 
 l02   Pranav  WER=0.06 MOS=4.23 
 
           category  voice  n   WER   CER accept_pass  MOS  ttfb_s   RTF  flagged
-             plain Kaveri  6 0.000 0.000        None 3.21    0.38 0.308        5
-             plain Pranav  6 0.000 0.000        None 3.45    0.39 0.315        4
+             plain Kaveri  6 0.000 0.000         NaN 3.21    0.38 0.308        5
+             plain Pranav  6 0.000 0.000         NaN 3.45    0.39 0.315        4
        numbers_raw Kaveri  8   NaN   NaN         8/8 3.17    0.53 0.261        1
        numbers_raw Pranav  8   NaN   NaN         8/8 3.77    0.57 0.294        1
 numbers_prewritten Kaveri  8   NaN   NaN         8/8 3.30    0.91 0.381        0
@@ -235,16 +235,16 @@ numbers_prewritten Pranav  8   NaN   NaN         8/8 3.73    0.37 0.238        0
          phone_ids Pranav  4   NaN   NaN         4/4 3.85    0.39 0.225        0
           acronyms Kaveri  6   NaN   NaN         6/6 3.37    0.52 0.291        3
           acronyms Pranav  6   NaN   NaN         5/6 3.86    0.49 0.280        2
-      indian_names Kaveri  5 0.105 0.025        None 3.23    0.55 0.335        0
-      indian_names Pranav  5 0.105 0.025        None 3.54    0.38 0.242        0
-          hinglish Kaveri  5 0.148 0.075        None 3.43    0.38 0.251        1
-          hinglish Poorvi  5 0.130 0.057        None 3.77    0.35 0.233        0
-      tricky_words Kaveri  4 0.000 0.000        None 3.24    0.40 0.294        2
-      tricky_words Pranav  4 0.000 0.000        None 3.49    0.62 0.328        2
+      indian_names Kaveri  5 0.053 0.021         NaN 3.23    0.55 0.335        0
+      indian_names Pranav  5 0.158 0.021         NaN 3.54    0.38 0.242        0
+          hinglish Kaveri  5 0.167 0.079         NaN 3.43    0.38 0.251        1
+          hinglish Poorvi  5 0.130 0.057         NaN 3.77    0.35 0.233        0
+      tricky_words Kaveri  4 0.000 0.000         NaN 3.24    0.40 0.294        2
+      tricky_words Pranav  4 0.000 0.000         NaN 3.49    0.62 0.328        2
          email_url Kaveri  2   NaN   NaN         0/2 3.28    0.33 0.184        0
          email_url Pranav  2   NaN   NaN         0/2 3.92    0.36 0.198        0
-         long_form Kaveri  2 0.035 0.024        None 3.64    0.50 0.060        0
-         long_form Pranav  2 0.040 0.027        None 4.12    0.31 0.060        0
+         long_form Kaveri  2 0.040 0.027         NaN 3.64    0.50 0.060        0
+         long_form Pranav  2 0.040 0.027         NaN 4.12    0.31 0.060        0
 
 Raw numbers vs written-out numbers (correct / total):
           category  voice sum  count
@@ -259,33 +259,33 @@ MOS by voice: {'Kaveri': 3.28, 'Poorvi': 3.77, 'Pranav': 3.7}
 
 Failed normalization checks:
   a06 Pranav: Your CIBIL score is good, so the loan is pre-approved.
-        heard: Your Sible score is good, so the loan is pre-approved.
+        heard: Your Sibyl score is good, so the loan is pre-approved.
   e01 Kaveri: Write to us at support@hdfcbank.com for help.
         heard: write to us at support at hdfsbank.com for help.
   e01 Pranav: Write to us at support@hdfcbank.com for help.
-        heard: Write to us at support at hdfsbank.com for help.
+        heard: Write to us at supporthdsbank.com for help.
   e02 Kaveri: Visit www.gnani.ai to know more.
         heard: Visit www.gyani.ai to know more.
   e02 Pranav: Visit www.gnani.ai to know more.
         heard: Visit www.gyani.ai to know more.
 
 Worst intelligibility (WER categories):
-  0.33 m01 Kaveri: This is Venkataraman calling from Thiruvananthapuram.
-        heard: This is Venkat Raman calling from Thiruvananthapuram.
   0.33 m01 Pranav: This is Venkataraman calling from Thiruvananthapuram.
         heard: This is Venkat Araman calling from Thiruvananthapuram.
-  0.29 h05 Poorvi: Thank you sir, aapka din shubh ho.
-        heard: Thank you, sir. Aapka din shubho.
-  0.29 m03 Pranav: Our Visakhapatnam branch manager is Mr. Subrahmanyam.
-        heard: Our Visakhapatnam branch manager is Mr. Subramaniam.
-  0.29 m03 Kaveri: Our Visakhapatnam branch manager is Mr. Subrahmanyam.
-        heard: Our Visakhapatnam branch manager is Mr. Subramanyam.
   0.29 h05 Kaveri: Thank you sir, aapka din shubh ho.
         heard: Thank you, sir. Aapka din shubho.
+  0.29 m03 Kaveri: Our Visakhapatnam branch manager is Mr. Subrahmanyam.
+        heard: Our Visakhapatnam branch manager is Mr. Subramanyam.
+  0.29 m03 Pranav: Our Visakhapatnam branch manager is Mr. Subrahmanyam.
+        heard: Our Visakhapatnam branch manager is Mr. Subramanyam.
+  0.29 h05 Poorvi: Thank you sir, aapka din shubh ho.
+        heard: Thank you, sir. Aapka din shubho.
+  0.27 h04 Kaveri: Aapka refund five to seven working days mein credit ho jayega.
+        heard: Aapka refund 5-7 working days mein credit ho jayega.
   0.27 h04 Poorvi: Aapka refund five to seven working days mein credit ho jayega.
         heard: Aapka refund 5 to 7 working days mein kredit ho jayega.
-  0.20 h03 Poorvi: Kya main aapke account ki details verify kar sakti hoon?
-        heard: kya mai aapki account ki details verify kar sakti hoon?
+  0.25 m05 Pranav: Priyanka Chaturvedi from Jaipur has requested a callback.
+        heard: Priyanka Chaturvedi from Jaipur has requested a call back.
 
 Reliability flags: 21 clips
   p02 Kaveri: odd_speaking_rate
@@ -311,7 +311,7 @@ Reliability flags: 21 clips
   t03 Pranav: odd_speaking_rate
 
 Human baseline (30 real Indian English clips from Part 1):
-  Whisper WER on them = 0.045  (the judge's own error rate)
+  Whisper WER on them = 0.051  (the judge's own error rate)
   speaking rate = 2.81 words/s  (Timbre median 3.90)
   DNSMOS = 3.49  (Timbre mean 3.49)
 

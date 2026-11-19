@@ -8,7 +8,7 @@ Picked clips are converted to 16 kHz mono wav and copied to data/samples/.
 Noisy and phone-quality versions are made from 10 of the Indian clips.
 Everything is listed in data/manifest.csv.
 
-Run once:  python prepare_data.py
+Run once:  uv run python prepare_data.py
 """
 import csv
 import glob

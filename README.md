@@ -4,13 +4,11 @@ Take-home assignment for the AI Solutions Engineer role. The write-up is in [rep
 
 ## Setup
 
-Python 3.11.
+Uses [uv](https://docs.astral.sh/uv/) and Python 3.11. Exact versions are locked in `uv.lock`.
 
 ```
-python -m venv .venv
-.venv\Scripts\activate          (Linux/Mac: source .venv/bin/activate)
-pip install -r requirements.txt
-copy .env.example .env          then put your Gnani API key in .env
+uv sync                         # creates .venv with everything from pyproject.toml
+copy .env.example .env          # then put your Gnani API key in .env
 ```
 
 The first TTS run downloads the Whisper `small` model (~460 MB). Whisper uses the GPU if CUDA 12 is available and otherwise falls back to the CPU.
@@ -18,9 +16,9 @@ The first TTS run downloads the Whisper `small` model (~460 MB). Whisper uses th
 ## Run
 
 ```
-pytest tests                    # WER/CER and matcher tests
-python eval_asr.py              # Part 1: Prisma
-python eval_tts.py              # Part 2: Timbre
+uv run pytest tests             # WER/CER and matcher tests
+uv run python eval_asr.py       # Part 1: Prisma
+uv run python eval_tts.py       # Part 2: Timbre
 ```
 
 All API responses are already saved in `results/raw/` and `results/tts_audio/`, so both scripts re-score everything **without calling the API**. Only new or missing clips are sent. Use `--limit 3` for a quick test.
@@ -28,8 +26,8 @@ All API responses are already saved in `results/raw/` and `results/tts_audio/`, 
 Optional:
 
 ```
-python prepare_data.py          # rebuild data/samples from the original datasets (paths in .env)
-python record.py                # record the sentences in recording_script.csv with your mic
+uv run python prepare_data.py   # rebuild data/samples from the original datasets (paths in .env)
+uv run python record.py         # record the sentences in recording_script.csv with your mic
 ```
 
 ## Files

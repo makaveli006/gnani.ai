@@ -1,8 +1,8 @@
 """
 Record the sentences in recording_script.csv with your microphone.
 
-    python record.py          record the ones not done yet
-    python record.py h03      re-record one sentence
+    uv run python record.py          record the ones not done yet
+    uv run python record.py h03      re-record one sentence
 
 Press Enter to start, Enter again to stop. Saved as data/samples/own/<id>.wav
 """

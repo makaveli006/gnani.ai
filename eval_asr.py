@@ -1,9 +1,9 @@
 """
 Part 1: evaluate Prisma (ASR).
 
-    python eval_asr.py              run everything
-    python eval_asr.py --limit 3    quick test on 3 clips
-    python eval_asr.py --model prisma-v3.0
+    uv run python eval_asr.py              run everything
+    uv run python eval_asr.py --limit 3    quick test on 3 clips
+    uv run python eval_asr.py --model prisma-v3.0
 
 Reads data/manifest.csv plus the clips recorded with record.py,
 sends each to Prisma (cached), and writes:
