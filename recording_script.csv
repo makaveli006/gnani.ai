@@ -1,0 +1,26 @@
+id,category,text,expected_formatted
+n01,own_numbers,"My phone number is nine eight four seven zero, one two three four five.",9847012345
+n02,own_numbers,The loan amount is two lakh fifty thousand rupees.,250000
+n03,own_numbers,Please pay one crore twenty lakh rupees by Friday.,12000000
+n04,own_numbers,My date of birth is fifteenth August nineteen ninety two.,15;august;1992
+n05,own_numbers,The PIN code is six seven three six three five.,673635
+n06,own_numbers,Your OTP is four eight two nine.,4829
+n07,own_numbers,I paid three thousand four hundred and fifty rupees yesterday.,3450
+n08,own_numbers,The meeting is at ten thirty in the morning.,10:30
+n09,own_numbers,Transfer ninety nine rupees and fifty paise to my account.,99;50
+n10,own_numbers,My account number ends with zero zero seven one.,0071
+h01,own_hinglish,"Mera payment kal tak ho jayega, don't worry.",
+h02,own_hinglish,"Sir, aapka EMI due date next Monday hai.",
+h03,own_hinglish,"Main abhi office mein hoon, please call me later.",
+h04,own_hinglish,Mujhe apna account balance check karna hai.,
+h05,own_hinglish,"Aapka order dispatch ho gaya hai, two days mein deliver hoga.",
+h06,own_hinglish,Kya aap mera KYC update kar sakte hain?,
+h07,own_hinglish,Is month ki salary abhi tak credit nahi hui.,
+h08,own_hinglish,"Theek hai, main tomorrow morning branch aa jaunga.",
+b01,own_banking_names,Please update my KYC and link my PAN card.,
+b02,own_banking_names,My CIBIL score dropped after I missed an EMI.,
+b03,own_banking_names,I want to pay through UPI using Google Pay.,
+b04,own_banking_names,Send the NACH mandate to my registered email.,
+b05,own_banking_names,This is Venkataraman calling from Thiruvananthapuram.,
+b06,own_banking_names,Please transfer the money to Lakshmi Narayanan in Coimbatore.,
+b07,own_banking_names,I have an account with HDFC Bank in Kozhikode.,

@@ -57,8 +57,15 @@ def cer(ref, hyp):
 
 
 def error_counts(ref, hyp):
-    """Counts used for corpus-level WER: total errors / total ref words."""
+    """Counts used for corpus-level WER/CER:
+    total errors / total reference words (or characters)."""
     r = normalize(ref).split()
     h = normalize(hyp).split()
     s, d, i = edit_ops(r, h)
-    return {"ref_words": len(r), "sub": s, "del": d, "ins": i}
+    rc = list("".join(r))
+    hc = list("".join(h))
+    cs, cd, ci = edit_ops(rc, hc)
+    return {
+        "ref_words": len(r), "sub": s, "del": d, "ins": i,
+        "ref_chars": len(rc), "char_errors": cs + cd + ci,
+    }
