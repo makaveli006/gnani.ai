@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-e256-7dac-be9b-33d2f4c6c720",
+  "transcript": "please update my kyc and link my pan card",
+  "model": "prisma-v2.5",
+  "processing_time": 0.05651688575744629,
+  "end_to_end_latency": 0.07206153869628906,
+  "output": {
+    "literal": "please update my kyc and link my pan card"
+  },
+  "http_status": 200,
+  "client_latency": 0.847
+}

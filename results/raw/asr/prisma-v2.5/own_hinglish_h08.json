@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc8e-84b7-7c75-a293-21343e6b903f",
+  "transcript": "theek hai mein tomorrow morning branch aa jaaunga",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13405299186706543,
+  "end_to_end_latency": 0.15143465995788574,
+  "output": {
+    "literal": "theek hai mein tomorrow morning branch aa jaaunga"
+  },
+  "http_status": 200,
+  "client_latency": 0.9
+}

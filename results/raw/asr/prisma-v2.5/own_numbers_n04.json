@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-9488-7cc1-98c2-e4b6a5d4f0c7",
+  "transcript": "my date of birth is 15th August 1992",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10717892646789551,
+  "end_to_end_latency": 0.11660504341125488,
+  "output": {
+    "literal": "my date of birth is fifteenth august nineteen ninety two"
+  },
+  "http_status": 200,
+  "client_latency": 0.753
+}

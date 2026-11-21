@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-eb4d-75d9-b2c3-4275c0bed957",
+  "transcript": "i want to pay through upi using google pay",
+  "model": "prisma-v2.5",
+  "processing_time": 0.08097577095031738,
+  "end_to_end_latency": 0.09502387046813965,
+  "output": {
+    "literal": "i want to pay through upi using google pay"
+  },
+  "http_status": 200,
+  "client_latency": 1.183
+}

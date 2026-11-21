@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-981a-7abb-b1eb-479569d30e29",
+  "transcript": "the pin code is 673635",
+  "model": "prisma-v2.5",
+  "processing_time": 0.05449843406677246,
+  "end_to_end_latency": 0.07168984413146973,
+  "output": {
+    "literal": "the pin code is six seven three six three five"
+  },
+  "http_status": 200,
+  "client_latency": 0.879
+}

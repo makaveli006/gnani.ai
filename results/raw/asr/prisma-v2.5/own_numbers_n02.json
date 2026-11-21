@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-8e46-7239-b540-149b55a62ea5",
+  "transcript": "the loan amount is ₹2,50,000",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15313434600830078,
+  "end_to_end_latency": 0.17115497589111328,
+  "output": {
+    "literal": "the loan amount is two lakh fifty thousand rupees"
+  },
+  "http_status": 200,
+  "client_latency": 0.803
+}

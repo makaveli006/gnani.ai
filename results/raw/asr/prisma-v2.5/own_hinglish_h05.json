@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-cf6e-7707-9d7f-75341b89f244",
+  "transcript": "app k order dispatch ho gaya hai toh days mein deliver hoga",
+  "model": "prisma-v2.5",
+  "processing_time": 0.15947508811950684,
+  "end_to_end_latency": 0.17411375045776367,
+  "output": {
+    "literal": "app k order dispatch ho gaya hai toh days mein deliver hoga"
+  },
+  "http_status": 200,
+  "client_latency": 1.071
+}

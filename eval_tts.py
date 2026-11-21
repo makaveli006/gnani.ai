@@ -10,12 +10,13 @@ For each sentence in tts_sentences.csv and each voice:
   3. we score it:
        - intelligibility: WER/CER of Whisper's text vs what should be said
        - normalization: did numbers / dates / acronyms come out right
-       - naturalness: DNSMOS predicted MOS (1-5)
+       - naturalness: three predicted MOS scores (1-5): UTMOS, NISQA and DNSMOS
        - speed: time to first audio, total time, RTF
        - reliability: empty, clipped, long silences, odd speaking rate
 """
 import argparse
 import csv
+from functools import lru_cache
 from pathlib import Path
 
 import matplotlib
@@ -61,13 +62,68 @@ def whisper_text(model, wav_path, hinglish=False):
     return " ".join(s.text.strip() for s in segments)
 
 
-def mos_scores(audio, sr):
-    # DNSMOS (Microsoft): predicts the 1-5 score listeners would give.
-    # p808_mos = overall quality, ovrl_mos = overall incl. noise/distortion
+@lru_cache
+def load_utmos():
+    import sys
+    import torch
+
+    # the UTMOS repo has its own package called "speechmos", which clashes with
+    # the pip package "speechmos" we use for DNSMOS. Hide the pip one while
+    # loading, then put it back.
+    def take_speechmos():
+        return {k: sys.modules.pop(k) for k in list(sys.modules)
+                if k == "speechmos" or k.startswith("speechmos.")}
+
+    pip_version = take_speechmos()
+    try:
+        model = torch.hub.load("tarepan/SpeechMOS:v1.2.0", "utmos22_strong", trust_repo=True, verbose=False)
+    finally:
+        take_speechmos()
+        sys.modules.update(pip_version)
+    model.eval()
+    return model
+
+
+def quality_scores(audio, sr):
+    """Three models that predict the 1-5 score listeners would give:
+    - UTMOS: trained on listener ratings of TTS voices (naturalness)
+    - NISQA: overall speech quality, plus noisiness, discontinuity,
+      coloration and loudness sub-scores
+    - DNSMOS (Microsoft): built for noise-suppression output.
+      p808 = overall quality, ovrl = overall incl. noise/distortion"""
+    import torch
     from speechmos import dnsmos
+    from torchmetrics.functional.audio.nisqa import non_intrusive_speech_quality_assessment
+
+    # all three get the same 16 kHz audio. Timbre is 24 kHz and the human
+    # clips are 16 kHz, so this way nobody wins or loses on bandwidth alone
     audio16 = np.clip(resample_poly(audio, 16000, sr), -1, 1).astype("float32")
-    result = dnsmos.run(audio16, sr=16000)
-    return round(float(result["p808_mos"]), 2), round(float(result["ovrl_mos"]), 2)
+
+    d = dnsmos.run(audio16, sr=16000)
+
+    with torch.no_grad():
+        utmos = float(load_utmos()(torch.from_numpy(audio16).unsqueeze(0), 16000)[0])
+
+    # NISQA was trained on 48 kHz audio and does not resample by itself
+    audio48 = resample_poly(audio16, 3, 1).astype("float32")
+    try:
+        nisqa = non_intrusive_speech_quality_assessment(torch.from_numpy(audio48), 48000).tolist()
+    except RuntimeError as e:
+        print(f"  NISQA could not score this clip ({e})")
+        nisqa = [None] * 5
+
+    def r(x):
+        return None if x is None else round(float(x), 2)
+
+    return {
+        "utmos": r(utmos),
+        "nisqa": r(nisqa[0]), "nisqa_noi": r(nisqa[1]), "nisqa_dis": r(nisqa[2]),
+        "nisqa_col": r(nisqa[3]), "nisqa_loud": r(nisqa[4]),
+        "dnsmos": r(d["p808_mos"]), "dnsmos_ovrl": r(d["ovrl_mos"]),
+    }
+
+
+SCORERS = ["utmos", "nisqa", "dnsmos"]
 
 
 def audio_checks(audio, sr, n_words):
@@ -103,15 +159,16 @@ def human_baseline(whisper):
     m = pd.read_csv("data/manifest.csv")
     m = m[m.category == "accent_indian"]
     errors = words = 0
-    rates, mos = [], []
+    rates, scores = [], []
     for _, row in m.iterrows():
         c = error_counts(row.reference, whisper_text(whisper, row.wav_path))
         errors += c["sub"] + c["del"] + c["ins"]
         words += c["ref_words"]
         audio, sr = sf.read(row.wav_path, dtype="float32")
         rates.append(audio_checks(audio, sr, c["ref_words"])["words_per_sec"])
-        mos.append(mos_scores(audio, sr)[0])
-    return errors / words, np.median(rates), np.mean(mos)
+        scores.append(quality_scores(audio, sr))
+    mos = pd.DataFrame(scores)[SCORERS].mean().round(2).to_dict()
+    return errors / words, np.median(rates), mos
 
 
 def main():
@@ -146,7 +203,6 @@ def main():
             continue
         audio, sr = sf.read(wav, dtype="float32")
         heard = whisper_text(whisper, wav, hinglish=s["language"] == "hi-en")
-        mos, ovrl = mos_scores(audio, sr)
         counts = error_counts(s["expected_spoken"], heard)
         rows.append({
             "id": s["id"],
@@ -158,15 +214,15 @@ def main():
             "wer": round((counts["sub"] + counts["del"] + counts["ins"]) / counts["ref_words"], 3),
             "cer": round(counts["char_errors"] / counts["ref_chars"], 3),
             "accept_ok": matches_any(heard, s["accept"]) if s["accept"] else None,
-            "mos": mos,
-            "mos_ovrl": ovrl,
+            **quality_scores(audio, sr),
             "ttfb": meta["ttfb"],
             "total_time": meta["total"],
             "audio_seconds": meta["audio_seconds"],
             "rtf": round(meta["total"] / meta["audio_seconds"], 3),
             **audio_checks(audio, sr, counts["ref_words"]),
         })
-        print(f"{s['id']:5s} {voice:7s} WER={rows[-1]['wer']:.2f} MOS={rows[-1]['mos']:.2f} {rows[-1]['flags']}")
+        r = rows[-1]
+        print(f"{s['id']:5s} {voice:7s} WER={r['wer']:.2f} UTMOS={r['utmos']} NISQA={r['nisqa']} DNSMOS={r['dnsmos']} {r['flags']}")
 
     df = pd.DataFrame(rows)
     Path("results").mkdir(exist_ok=True)
@@ -187,7 +243,9 @@ def main():
                 "WER": round((d["sub"] + d["del"] + d["ins"]).sum() / d.ref_words.sum(), 3) if wer_cat else None,
                 "CER": round(d.char_errors.sum() / d.ref_chars.sum(), 3) if wer_cat else None,
                 "accept_pass": f"{int(acc.sum())}/{len(acc)}" if len(acc) else None,
-                "MOS": round(d.mos.mean(), 2),
+                "UTMOS": round(d.utmos.mean(), 2),
+                "NISQA": round(d.nisqa.mean(), 2),
+                "DNSMOS": round(d.dnsmos.mean(), 2),
                 "ttfb_s": round(d.ttfb.mean(), 2),
                 "RTF": round(d.rtf.mean(), 3),
                 "flagged": int((d["flags"].fillna("") != "").sum()),
@@ -207,7 +265,11 @@ def main():
     # overall speed
     print(f"\nTime to first audio: median {ok.ttfb.median():.2f}s, p90 {ok.ttfb.quantile(0.9):.2f}s")
     print(f"RTF: median {ok.rtf.median():.3f}, worst {ok.rtf.max():.3f}")
-    print("MOS by voice:", ok.groupby("voice").mos.mean().round(2).to_dict())
+    print("\nPredicted MOS by voice:")
+    print(ok.groupby("voice")[SCORERS].mean().round(2).to_string())
+    missing = ok[ok.nisqa.isna()]
+    if len(missing):
+        print(f"NISQA could not score {len(missing)} clips: {', '.join(missing.id + ' ' + missing.voice)}")
 
     print("\nFailed normalization checks:")
     for _, r in ok[ok.accept_ok == False].iterrows():
@@ -228,7 +290,8 @@ def main():
         print(f"\nHuman baseline (30 real Indian English clips from Part 1):")
         print(f"  Whisper WER on them = {judge_wer:.3f}  (the judge's own error rate)")
         print(f"  speaking rate = {human_rate:.2f} words/s  (Timbre median {ok.words_per_sec.median():.2f})")
-        print(f"  DNSMOS = {human_mos:.2f}  (Timbre mean {ok.mos.mean():.2f})")
+        for name in SCORERS:
+            print(f"  {name.upper()} = {human_mos[name]:.2f}  (Timbre mean {ok[name].mean():.2f})")
 
         # one call to see if the newer model works at all (Prisma v3.0 did not)
         meta = synthesize(sentences[0]["text"], AUDIO_DIR / "timbre-v3.0_Sohini" / "p01.wav",
@@ -236,13 +299,16 @@ def main():
         print(f"\ntimbre-v3.0 check: {'works' if meta.get('ok') else meta}")
 
     # chart
-    by_cat = ok.groupby("category").mos.mean().reindex([c for c in ORDER if c in set(ok.category)])
-    plt.figure(figsize=(10, 4))
-    plt.bar(by_cat.index, by_cat.values)
-    plt.ylabel("DNSMOS P.808 (1-5)")
+    by_cat = ok.groupby("category")[SCORERS].mean().reindex([c for c in ORDER if c in set(ok.category)])
+    x = np.arange(len(by_cat))
+    plt.figure(figsize=(11, 4))
+    for i, name in enumerate(SCORERS):
+        plt.bar(x + (i - 1) * 0.27, by_cat[name], width=0.27, label=name.upper())
+    plt.xticks(x, by_cat.index, rotation=45, ha="right")
+    plt.ylabel("predicted MOS (1-5)")
     plt.ylim(1, 5)
-    plt.title(f"{MODEL} predicted naturalness by category")
-    plt.xticks(rotation=45, ha="right")
+    plt.title(f"{MODEL} predicted quality by category")
+    plt.legend()
     plt.tight_layout()
     plt.savefig("results/tts_mos_by_category.png", dpi=120)
 

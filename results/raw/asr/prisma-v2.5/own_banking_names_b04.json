@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-ee3a-788e-bf7a-7852fd37529e",
+  "transcript": "send the nach mandate to my registered email",
+  "model": "prisma-v2.5",
+  "processing_time": 0.14522266387939453,
+  "end_to_end_latency": 0.19261765480041504,
+  "output": {
+    "literal": "send the nach mandate to my registered email"
+  },
+  "http_status": 200,
+  "client_latency": 0.845
+}

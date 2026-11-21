@@ -111,140 +111,140 @@ l02   Pranav  ok
 
 loading Whisper...
 GPU not usable (Library cublas64_12.dll is not found or cannot be loaded), using CPU
-p01   Kaveri  WER=0.00 MOS=3.55 
-p01   Pranav  WER=0.00 MOS=3.78 
-p02   Kaveri  WER=0.00 MOS=3.18 odd_speaking_rate
-p02   Pranav  WER=0.00 MOS=3.44 odd_speaking_rate
-p03   Kaveri  WER=0.00 MOS=3.37 odd_speaking_rate
-p03   Pranav  WER=0.00 MOS=3.68 odd_speaking_rate
-p04   Kaveri  WER=0.00 MOS=3.15 odd_speaking_rate
-p04   Pranav  WER=0.00 MOS=3.42 
-p05   Kaveri  WER=0.00 MOS=3.14 odd_speaking_rate
-p05   Pranav  WER=0.00 MOS=3.52 odd_speaking_rate
-p06   Kaveri  WER=0.00 MOS=2.89 odd_speaking_rate
-p06   Pranav  WER=0.00 MOS=2.84 odd_speaking_rate
-nr01  Kaveri  WER=0.42 MOS=3.23 
-nr01  Pranav  WER=0.33 MOS=3.88 
-nr02  Kaveri  WER=0.30 MOS=3.09 
-nr02  Pranav  WER=0.30 MOS=3.81 
-nr03  Kaveri  WER=0.46 MOS=3.10 
-nr03  Pranav  WER=0.46 MOS=3.68 
-nr04  Kaveri  WER=0.33 MOS=3.13 
-nr04  Pranav  WER=0.22 MOS=3.62 
-nr05  Kaveri  WER=0.56 MOS=3.21 
-nr05  Pranav  WER=0.56 MOS=3.80 
-nr06  Kaveri  WER=0.58 MOS=3.10 
-nr06  Pranav  WER=0.58 MOS=3.78 
-nr07  Kaveri  WER=0.60 MOS=2.94 odd_speaking_rate
-nr07  Pranav  WER=0.60 MOS=3.53 odd_speaking_rate
-nr08  Kaveri  WER=0.79 MOS=3.56 
-nr08  Pranav  WER=0.79 MOS=4.05 
-nw01  Kaveri  WER=0.33 MOS=3.44 
-nw01  Pranav  WER=0.33 MOS=3.68 
-nw02  Kaveri  WER=0.30 MOS=3.20 
-nw02  Pranav  WER=0.30 MOS=3.48 
-nw03  Kaveri  WER=0.46 MOS=3.16 
-nw03  Pranav  WER=0.46 MOS=3.55 
-nw04  Kaveri  WER=0.22 MOS=3.37 
-nw04  Pranav  WER=0.22 MOS=3.82 
-nw05  Kaveri  WER=0.61 MOS=3.54 
-nw05  Pranav  WER=0.56 MOS=3.85 
-nw06  Kaveri  WER=0.58 MOS=3.22 
-nw06  Pranav  WER=0.58 MOS=3.71 
-nw07  Kaveri  WER=0.40 MOS=2.93 
-nw07  Pranav  WER=0.40 MOS=3.67 
-nw08  Kaveri  WER=0.79 MOS=3.53 
-nw08  Pranav  WER=0.79 MOS=4.10 
-d01   Kaveri  WER=0.57 MOS=3.20 
-d01   Pranav  WER=0.57 MOS=3.47 
-d02   Kaveri  WER=0.14 MOS=3.14 
-d02   Pranav  WER=0.14 MOS=3.61 
-d03   Kaveri  WER=0.17 MOS=3.27 
-d03   Pranav  WER=0.50 MOS=3.78 
-d04   Kaveri  WER=0.50 MOS=3.34 
-d04   Pranav  WER=0.50 MOS=3.87 
-d05   Kaveri  WER=0.22 MOS=3.17 
-d05   Pranav  WER=0.22 MOS=3.38 
-i01   Kaveri  WER=0.67 MOS=3.36 
-i01   Pranav  WER=0.67 MOS=4.00 
-i02   Kaveri  WER=0.55 MOS=3.31 
-i02   Pranav  WER=0.55 MOS=3.70 
-i03   Kaveri  WER=0.47 MOS=3.02 
-i03   Pranav  WER=0.47 MOS=3.56 
-i04   Kaveri  WER=0.36 MOS=3.36 
-i04   Pranav  WER=0.36 MOS=4.14 
-a01   Kaveri  WER=0.27 MOS=3.61 
-a01   Pranav  WER=0.27 MOS=3.94 
-a02   Kaveri  WER=0.40 MOS=3.42 
-a02   Pranav  WER=0.40 MOS=4.07 
-a03   Kaveri  WER=0.30 MOS=3.18 odd_speaking_rate
-a03   Pranav  WER=0.30 MOS=3.70 
-a04   Kaveri  WER=0.10 MOS=3.26 odd_speaking_rate
-a04   Pranav  WER=0.00 MOS=3.77 odd_speaking_rate
-a05   Kaveri  WER=0.25 MOS=3.26 odd_speaking_rate
-a05   Pranav  WER=0.25 MOS=3.81 odd_speaking_rate
-a06   Kaveri  WER=0.09 MOS=3.48 
-a06   Pranav  WER=0.09 MOS=3.85 
-m01   Kaveri  WER=0.00 MOS=3.20 
-m01   Pranav  WER=0.33 MOS=3.46 
-m02   Kaveri  WER=0.00 MOS=3.38 
-m02   Pranav  WER=0.00 MOS=3.65 
-m03   Kaveri  WER=0.29 MOS=3.10 
-m03   Pranav  WER=0.29 MOS=3.53 
-m04   Kaveri  WER=0.00 MOS=3.21 
-m04   Pranav  WER=0.00 MOS=3.69 
-m05   Kaveri  WER=0.00 MOS=3.26 
-m05   Pranav  WER=0.25 MOS=3.37 
-h01   Poorvi  WER=0.00 MOS=4.04 
-h01   Kaveri  WER=0.15 MOS=3.55 
-h02   Poorvi  WER=0.00 MOS=3.99 
-h02   Kaveri  WER=0.00 MOS=3.77 
-h03   Poorvi  WER=0.20 MOS=3.56 
-h03   Kaveri  WER=0.20 MOS=3.44 
-h04   Poorvi  WER=0.27 MOS=3.56 
-h04   Kaveri  WER=0.27 MOS=3.28 
-h05   Poorvi  WER=0.29 MOS=3.68 
-h05   Kaveri  WER=0.29 MOS=3.10 odd_speaking_rate
-t01   Kaveri  WER=0.00 MOS=3.43 odd_speaking_rate
-t01   Pranav  WER=0.00 MOS=3.53 odd_speaking_rate
-t02   Kaveri  WER=0.00 MOS=3.29 odd_speaking_rate
-t02   Pranav  WER=0.00 MOS=3.42 
-t03   Kaveri  WER=0.00 MOS=3.21 
-t03   Pranav  WER=0.00 MOS=3.56 odd_speaking_rate
-t04   Kaveri  WER=0.00 MOS=3.05 
-t04   Pranav  WER=0.00 MOS=3.46 
-e01   Kaveri  WER=0.18 MOS=3.37 
-e01   Pranav  WER=0.36 MOS=3.98 
-e02   Kaveri  WER=0.55 MOS=3.18 
-e02   Pranav  WER=0.55 MOS=3.85 
-l01   Kaveri  WER=0.02 MOS=3.76 
-l01   Pranav  WER=0.02 MOS=4.01 
-l02   Kaveri  WER=0.06 MOS=3.52 
-l02   Pranav  WER=0.06 MOS=4.23 
+p01   Kaveri  WER=0.00 UTMOS=4.12 NISQA=4.24 DNSMOS=3.55 
+p01   Pranav  WER=0.00 UTMOS=4.25 NISQA=4.8 DNSMOS=3.78 
+p02   Kaveri  WER=0.00 UTMOS=4.33 NISQA=3.42 DNSMOS=3.18 odd_speaking_rate
+p02   Pranav  WER=0.00 UTMOS=3.94 NISQA=4.78 DNSMOS=3.44 odd_speaking_rate
+p03   Kaveri  WER=0.00 UTMOS=4.24 NISQA=4.87 DNSMOS=3.37 odd_speaking_rate
+p03   Pranav  WER=0.00 UTMOS=4.25 NISQA=4.89 DNSMOS=3.68 odd_speaking_rate
+p04   Kaveri  WER=0.00 UTMOS=4.19 NISQA=5.0 DNSMOS=3.15 odd_speaking_rate
+p04   Pranav  WER=0.00 UTMOS=4.27 NISQA=4.77 DNSMOS=3.42 
+p05   Kaveri  WER=0.00 UTMOS=3.92 NISQA=4.48 DNSMOS=3.14 odd_speaking_rate
+p05   Pranav  WER=0.00 UTMOS=4.27 NISQA=4.72 DNSMOS=3.52 odd_speaking_rate
+p06   Kaveri  WER=0.00 UTMOS=4.08 NISQA=4.92 DNSMOS=2.89 odd_speaking_rate
+p06   Pranav  WER=0.00 UTMOS=4.36 NISQA=4.85 DNSMOS=2.84 odd_speaking_rate
+nr01  Kaveri  WER=0.42 UTMOS=4.17 NISQA=4.06 DNSMOS=3.23 
+nr01  Pranav  WER=0.33 UTMOS=4.35 NISQA=4.71 DNSMOS=3.88 
+nr02  Kaveri  WER=0.30 UTMOS=4.25 NISQA=4.81 DNSMOS=3.09 
+nr02  Pranav  WER=0.30 UTMOS=4.3 NISQA=4.94 DNSMOS=3.81 
+nr03  Kaveri  WER=0.46 UTMOS=3.94 NISQA=4.76 DNSMOS=3.1 
+nr03  Pranav  WER=0.46 UTMOS=4.34 NISQA=4.91 DNSMOS=3.68 
+nr04  Kaveri  WER=0.33 UTMOS=4.13 NISQA=4.33 DNSMOS=3.13 
+nr04  Pranav  WER=0.22 UTMOS=4.18 NISQA=4.79 DNSMOS=3.62 
+nr05  Kaveri  WER=0.56 UTMOS=4.26 NISQA=4.89 DNSMOS=3.21 
+nr05  Pranav  WER=0.56 UTMOS=4.32 NISQA=4.84 DNSMOS=3.8 
+nr06  Kaveri  WER=0.58 UTMOS=4.26 NISQA=4.26 DNSMOS=3.1 
+nr06  Pranav  WER=0.58 UTMOS=4.17 NISQA=5.03 DNSMOS=3.78 
+nr07  Kaveri  WER=0.60 UTMOS=4.08 NISQA=4.91 DNSMOS=2.94 odd_speaking_rate
+nr07  Pranav  WER=0.60 UTMOS=4.35 NISQA=4.38 DNSMOS=3.53 odd_speaking_rate
+nr08  Kaveri  WER=0.79 UTMOS=3.81 NISQA=4.39 DNSMOS=3.56 
+nr08  Pranav  WER=0.79 UTMOS=4.28 NISQA=4.64 DNSMOS=4.05 
+nw01  Kaveri  WER=0.33 UTMOS=4.15 NISQA=4.65 DNSMOS=3.44 
+nw01  Pranav  WER=0.33 UTMOS=4.22 NISQA=4.6 DNSMOS=3.68 
+nw02  Kaveri  WER=0.30 UTMOS=4.26 NISQA=4.56 DNSMOS=3.2 
+nw02  Pranav  WER=0.30 UTMOS=4.36 NISQA=4.9 DNSMOS=3.48 
+nw03  Kaveri  WER=0.46 UTMOS=3.69 NISQA=4.95 DNSMOS=3.16 
+nw03  Pranav  WER=0.46 UTMOS=4.26 NISQA=4.86 DNSMOS=3.55 
+nw04  Kaveri  WER=0.22 UTMOS=4.1 NISQA=4.58 DNSMOS=3.37 
+nw04  Pranav  WER=0.22 UTMOS=4.21 NISQA=4.82 DNSMOS=3.82 
+nw05  Kaveri  WER=0.61 UTMOS=4.22 NISQA=4.84 DNSMOS=3.54 
+nw05  Pranav  WER=0.56 UTMOS=4.33 NISQA=4.86 DNSMOS=3.85 
+nw06  Kaveri  WER=0.58 UTMOS=4.17 NISQA=4.58 DNSMOS=3.22 
+nw06  Pranav  WER=0.58 UTMOS=4.36 NISQA=5.03 DNSMOS=3.71 
+nw07  Kaveri  WER=0.40 UTMOS=4.21 NISQA=4.79 DNSMOS=2.93 
+nw07  Pranav  WER=0.40 UTMOS=4.38 NISQA=4.92 DNSMOS=3.67 
+nw08  Kaveri  WER=0.79 UTMOS=4.36 NISQA=4.48 DNSMOS=3.53 
+nw08  Pranav  WER=0.79 UTMOS=4.1 NISQA=4.83 DNSMOS=4.1 
+d01   Kaveri  WER=0.57 UTMOS=4.23 NISQA=4.38 DNSMOS=3.2 
+d01   Pranav  WER=0.57 UTMOS=4.3 NISQA=4.85 DNSMOS=3.47 
+d02   Kaveri  WER=0.14 UTMOS=3.92 NISQA=4.32 DNSMOS=3.14 
+d02   Pranav  WER=0.14 UTMOS=4.26 NISQA=4.9 DNSMOS=3.61 
+d03   Kaveri  WER=0.17 UTMOS=4.03 NISQA=4.38 DNSMOS=3.27 
+d03   Pranav  WER=0.50 UTMOS=4.33 NISQA=4.87 DNSMOS=3.78 
+d04   Kaveri  WER=0.50 UTMOS=4.22 NISQA=3.09 DNSMOS=3.34 
+d04   Pranav  WER=0.50 UTMOS=4.34 NISQA=4.92 DNSMOS=3.87 
+d05   Kaveri  WER=0.22 UTMOS=4.33 NISQA=4.15 DNSMOS=3.17 
+d05   Pranav  WER=0.22 UTMOS=4.34 NISQA=4.01 DNSMOS=3.38 
+i01   Kaveri  WER=0.67 UTMOS=4.36 NISQA=4.28 DNSMOS=3.36 
+i01   Pranav  WER=0.67 UTMOS=4.42 NISQA=4.7 DNSMOS=4.0 
+i02   Kaveri  WER=0.55 UTMOS=4.01 NISQA=4.11 DNSMOS=3.31 
+i02   Pranav  WER=0.55 UTMOS=4.4 NISQA=4.86 DNSMOS=3.7 
+i03   Kaveri  WER=0.47 UTMOS=4.19 NISQA=3.99 DNSMOS=3.02 
+i03   Pranav  WER=0.47 UTMOS=4.39 NISQA=4.89 DNSMOS=3.56 
+i04   Kaveri  WER=0.36 UTMOS=4.31 NISQA=4.78 DNSMOS=3.36 
+i04   Pranav  WER=0.36 UTMOS=4.36 NISQA=4.9 DNSMOS=4.14 
+a01   Kaveri  WER=0.27 UTMOS=4.15 NISQA=4.67 DNSMOS=3.61 
+a01   Pranav  WER=0.27 UTMOS=4.29 NISQA=4.94 DNSMOS=3.94 
+a02   Kaveri  WER=0.40 UTMOS=4.1 NISQA=3.6 DNSMOS=3.42 
+a02   Pranav  WER=0.40 UTMOS=4.22 NISQA=4.95 DNSMOS=4.07 
+a03   Kaveri  WER=0.30 UTMOS=4.12 NISQA=2.55 DNSMOS=3.18 odd_speaking_rate
+a03   Pranav  WER=0.30 UTMOS=4.33 NISQA=3.29 DNSMOS=3.7 
+a04   Kaveri  WER=0.10 UTMOS=3.92 NISQA=5.06 DNSMOS=3.26 odd_speaking_rate
+a04   Pranav  WER=0.00 UTMOS=4.13 NISQA=4.85 DNSMOS=3.77 odd_speaking_rate
+a05   Kaveri  WER=0.25 UTMOS=4.14 NISQA=4.85 DNSMOS=3.26 odd_speaking_rate
+a05   Pranav  WER=0.25 UTMOS=4.26 NISQA=5.0 DNSMOS=3.81 odd_speaking_rate
+a06   Kaveri  WER=0.09 UTMOS=4.02 NISQA=4.75 DNSMOS=3.48 
+a06   Pranav  WER=0.09 UTMOS=4.38 NISQA=4.76 DNSMOS=3.85 
+m01   Kaveri  WER=0.00 UTMOS=3.83 NISQA=4.5 DNSMOS=3.2 
+m01   Pranav  WER=0.33 UTMOS=4.06 NISQA=4.85 DNSMOS=3.46 
+m02   Kaveri  WER=0.00 UTMOS=4.16 NISQA=4.84 DNSMOS=3.38 
+m02   Pranav  WER=0.00 UTMOS=4.24 NISQA=4.77 DNSMOS=3.65 
+m03   Kaveri  WER=0.29 UTMOS=4.06 NISQA=4.54 DNSMOS=3.1 
+m03   Pranav  WER=0.29 UTMOS=4.28 NISQA=4.84 DNSMOS=3.53 
+m04   Kaveri  WER=0.00 UTMOS=3.96 NISQA=4.62 DNSMOS=3.21 
+m04   Pranav  WER=0.00 UTMOS=4.27 NISQA=4.73 DNSMOS=3.69 
+m05   Kaveri  WER=0.00 UTMOS=4.3 NISQA=4.66 DNSMOS=3.26 
+m05   Pranav  WER=0.25 UTMOS=4.34 NISQA=4.72 DNSMOS=3.37 
+h01   Poorvi  WER=0.00 UTMOS=4.31 NISQA=4.94 DNSMOS=4.04 
+h01   Kaveri  WER=0.15 UTMOS=4.21 NISQA=4.03 DNSMOS=3.55 
+h02   Poorvi  WER=0.00 UTMOS=4.11 NISQA=4.84 DNSMOS=3.99 
+h02   Kaveri  WER=0.00 UTMOS=4.17 NISQA=3.4 DNSMOS=3.77 
+h03   Poorvi  WER=0.20 UTMOS=4.1 NISQA=4.84 DNSMOS=3.56 
+h03   Kaveri  WER=0.20 UTMOS=3.99 NISQA=4.94 DNSMOS=3.44 
+h04   Poorvi  WER=0.27 UTMOS=4.19 NISQA=4.81 DNSMOS=3.56 
+h04   Kaveri  WER=0.27 UTMOS=4.27 NISQA=4.6 DNSMOS=3.28 
+h05   Poorvi  WER=0.29 UTMOS=4.36 NISQA=4.82 DNSMOS=3.68 
+h05   Kaveri  WER=0.29 UTMOS=4.26 NISQA=4.62 DNSMOS=3.1 odd_speaking_rate
+t01   Kaveri  WER=0.00 UTMOS=4.32 NISQA=4.47 DNSMOS=3.43 odd_speaking_rate
+t01   Pranav  WER=0.00 UTMOS=4.26 NISQA=4.81 DNSMOS=3.53 odd_speaking_rate
+t02   Kaveri  WER=0.00 UTMOS=4.04 NISQA=4.76 DNSMOS=3.29 odd_speaking_rate
+t02   Pranav  WER=0.00 UTMOS=3.96 NISQA=4.73 DNSMOS=3.42 
+t03   Kaveri  WER=0.00 UTMOS=4.12 NISQA=4.68 DNSMOS=3.21 
+t03   Pranav  WER=0.00 UTMOS=4.29 NISQA=5.01 DNSMOS=3.56 odd_speaking_rate
+t04   Kaveri  WER=0.00 UTMOS=4.27 NISQA=3.79 DNSMOS=3.05 
+t04   Pranav  WER=0.00 UTMOS=4.28 NISQA=4.83 DNSMOS=3.46 
+e01   Kaveri  WER=0.18 UTMOS=4.24 NISQA=4.52 DNSMOS=3.37 
+e01   Pranav  WER=0.36 UTMOS=4.26 NISQA=4.86 DNSMOS=3.98 
+e02   Kaveri  WER=0.55 UTMOS=4.36 NISQA=4.84 DNSMOS=3.18 
+e02   Pranav  WER=0.55 UTMOS=4.29 NISQA=4.93 DNSMOS=3.85 
+l01   Kaveri  WER=0.02 UTMOS=4.04 NISQA=4.69 DNSMOS=3.76 
+l01   Pranav  WER=0.02 UTMOS=4.32 NISQA=4.75 DNSMOS=4.01 
+l02   Kaveri  WER=0.06 UTMOS=4.1 NISQA=4.53 DNSMOS=3.52 
+l02   Pranav  WER=0.06 UTMOS=4.39 NISQA=4.8 DNSMOS=4.23 
 
-          category  voice  n   WER   CER accept_pass  MOS  ttfb_s   RTF  flagged
-             plain Kaveri  6 0.000 0.000         NaN 3.21    0.38 0.308        5
-             plain Pranav  6 0.000 0.000         NaN 3.45    0.39 0.315        4
-       numbers_raw Kaveri  8   NaN   NaN         8/8 3.17    0.53 0.261        1
-       numbers_raw Pranav  8   NaN   NaN         8/8 3.77    0.57 0.294        1
-numbers_prewritten Kaveri  8   NaN   NaN         8/8 3.30    0.91 0.381        0
-numbers_prewritten Pranav  8   NaN   NaN         8/8 3.73    0.37 0.238        0
-       dates_times Kaveri  5   NaN   NaN         5/5 3.22    0.76 0.407        0
-       dates_times Pranav  5   NaN   NaN         5/5 3.62    0.75 0.437        0
-         phone_ids Kaveri  4   NaN   NaN         4/4 3.26    0.36 0.207        0
-         phone_ids Pranav  4   NaN   NaN         4/4 3.85    0.39 0.225        0
-          acronyms Kaveri  6   NaN   NaN         6/6 3.37    0.52 0.291        3
-          acronyms Pranav  6   NaN   NaN         5/6 3.86    0.49 0.280        2
-      indian_names Kaveri  5 0.053 0.021         NaN 3.23    0.55 0.335        0
-      indian_names Pranav  5 0.158 0.021         NaN 3.54    0.38 0.242        0
-          hinglish Kaveri  5 0.167 0.079         NaN 3.43    0.38 0.251        1
-          hinglish Poorvi  5 0.130 0.057         NaN 3.77    0.35 0.233        0
-      tricky_words Kaveri  4 0.000 0.000         NaN 3.24    0.40 0.294        2
-      tricky_words Pranav  4 0.000 0.000         NaN 3.49    0.62 0.328        2
-         email_url Kaveri  2   NaN   NaN         0/2 3.28    0.33 0.184        0
-         email_url Pranav  2   NaN   NaN         0/2 3.92    0.36 0.198        0
-         long_form Kaveri  2 0.040 0.027         NaN 3.64    0.50 0.060        0
-         long_form Pranav  2 0.040 0.027         NaN 4.12    0.31 0.060        0
+          category  voice  n   WER   CER accept_pass  UTMOS  NISQA  DNSMOS  ttfb_s   RTF  flagged
+             plain Kaveri  6 0.000 0.000         NaN   4.15   4.49    3.21    0.38 0.308        5
+             plain Pranav  6 0.000 0.000         NaN   4.22   4.80    3.45    0.39 0.315        4
+       numbers_raw Kaveri  8   NaN   NaN         8/8   4.11   4.55    3.17    0.53 0.261        1
+       numbers_raw Pranav  8   NaN   NaN         8/8   4.29   4.78    3.77    0.57 0.294        1
+numbers_prewritten Kaveri  8   NaN   NaN         8/8   4.14   4.68    3.30    0.91 0.381        0
+numbers_prewritten Pranav  8   NaN   NaN         8/8   4.28   4.85    3.73    0.37 0.238        0
+       dates_times Kaveri  5   NaN   NaN         5/5   4.15   4.06    3.22    0.76 0.407        0
+       dates_times Pranav  5   NaN   NaN         5/5   4.31   4.71    3.62    0.75 0.437        0
+         phone_ids Kaveri  4   NaN   NaN         4/4   4.22   4.29    3.26    0.36 0.207        0
+         phone_ids Pranav  4   NaN   NaN         4/4   4.39   4.84    3.85    0.39 0.225        0
+          acronyms Kaveri  6   NaN   NaN         6/6   4.08   4.25    3.37    0.52 0.291        3
+          acronyms Pranav  6   NaN   NaN         5/6   4.27   4.63    3.86    0.49 0.280        2
+      indian_names Kaveri  5 0.053 0.021         NaN   4.06   4.63    3.23    0.55 0.335        0
+      indian_names Pranav  5 0.158 0.021         NaN   4.24   4.78    3.54    0.38 0.242        0
+          hinglish Kaveri  5 0.167 0.079         NaN   4.18   4.32    3.43    0.38 0.251        1
+          hinglish Poorvi  5 0.130 0.057         NaN   4.21   4.85    3.77    0.35 0.233        0
+      tricky_words Kaveri  4 0.000 0.000         NaN   4.19   4.42    3.24    0.40 0.294        2
+      tricky_words Pranav  4 0.000 0.000         NaN   4.20   4.84    3.49    0.62 0.328        2
+         email_url Kaveri  2   NaN   NaN         0/2   4.30   4.68    3.28    0.33 0.184        0
+         email_url Pranav  2   NaN   NaN         0/2   4.28   4.89    3.92    0.36 0.198        0
+         long_form Kaveri  2 0.040 0.027         NaN   4.07   4.61    3.64    0.50 0.060        0
+         long_form Pranav  2 0.040 0.027         NaN   4.36   4.78    4.12    0.31 0.060        0
 
 Raw numbers vs written-out numbers (correct / total):
           category  voice sum  count
@@ -255,7 +255,13 @@ numbers_prewritten Pranav   8      8
 
 Time to first audio: median 0.35s, p90 1.29s
 RTF: median 0.232, worst 1.171
-MOS by voice: {'Kaveri': 3.28, 'Poorvi': 3.77, 'Pranav': 3.7}
+
+Predicted MOS by voice:
+        utmos  nisqa  dnsmos
+voice                       
+Kaveri   4.14   4.45    3.28
+Poorvi   4.21   4.85    3.77
+Pranav   4.28   4.78    3.70
 
 Failed normalization checks:
   a06 Pranav: Your CIBIL score is good, so the loan is pre-approved.
@@ -313,6 +319,8 @@ Reliability flags: 21 clips
 Human baseline (30 real Indian English clips from Part 1):
   Whisper WER on them = 0.051  (the judge's own error rate)
   speaking rate = 2.81 words/s  (Timbre median 3.90)
+  UTMOS = 2.50  (Timbre mean 4.21)
+  NISQA = 2.85  (Timbre mean 4.62)
   DNSMOS = 3.49  (Timbre mean 3.49)
 
 timbre-v3.0 check: works

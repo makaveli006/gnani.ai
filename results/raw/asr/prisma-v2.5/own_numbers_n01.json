@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-8b55-7043-b15d-6ca4d58b156a",
+  "transcript": "my phone number is 9847012345",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09794187545776367,
+  "end_to_end_latency": 0.10727810859680176,
+  "output": {
+    "literal": "my phone number is nine eight four seven zero one two three four five"
+  },
+  "http_status": 200,
+  "client_latency": 1.257
+}

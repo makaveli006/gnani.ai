@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc8c-07e6-794e-97cb-c645ec3712ad",
+  "transcript": "kya aap mera kyc update kar sakta hai",
+  "model": "prisma-v2.5",
+  "processing_time": 0.06268835067749023,
+  "end_to_end_latency": 0.08522796630859375,
+  "output": {
+    "literal": "kya aap mera kyc update kar sakta hai"
+  },
+  "http_status": 200,
+  "client_latency": 0.77
+}

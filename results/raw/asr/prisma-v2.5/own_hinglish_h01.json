@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-bcf4-7b7e-b612-0b8ef730a615",
+  "transcript": "mera payment kal kal tak ho jaayega don't worry",
+  "model": "prisma-v2.5",
+  "processing_time": 0.13899564743041992,
+  "end_to_end_latency": 0.15039968490600586,
+  "output": {
+    "literal": "mera payment kal kal tak ho jaayega don't worry"
+  },
+  "http_status": 200,
+  "client_latency": 1.331
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc8c-1295-797a-abf8-928a098645e4",
+  "transcript": "please transfer the money to lakshmi narayan in coimbatore",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09930849075317383,
+  "end_to_end_latency": 0.11226701736450195,
+  "output": {
+    "literal": "please transfer the money to lakshmi narayan in coimbatore"
+  },
+  "http_status": 200,
+  "client_latency": 0.766
+}

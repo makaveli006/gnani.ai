@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-b054-7b79-a24a-0ba11daa1a43",
+  "transcript": "transfer ₹99.50 to my account",
+  "model": "prisma-v2.5",
+  "processing_time": 0.10387873649597168,
+  "end_to_end_latency": 0.7880160808563232,
+  "output": {
+    "literal": "transfer ninety nine rupees and fifty paise to my account"
+  },
+  "http_status": 200,
+  "client_latency": 1.601
+}

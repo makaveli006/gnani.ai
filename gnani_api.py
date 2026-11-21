@@ -21,7 +21,10 @@ API_KEY = os.getenv("GNANI_API_KEY")
 BASE_URL = "https://api.vachana.ai"
 RAW_DIR = Path("results/raw")
 
-
+# It sends a request to the Gnani API and,
+# if the server is busy or errors out, waits a 
+# little longer each time (1s, 2s, 4s, 8s) (Exponential backoff)
+# and retries up to 4 times, stopping immediately if you're out of credits.
 def post_with_retry(url, tries=4, **kwargs):
     # the API allows one request at a time, and sometimes returns 5xx;
     # wait a bit and try again

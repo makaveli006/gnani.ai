@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-f8ee-7a47-afc4-529772abd33e",
+  "transcript": "i have an account with hdfc bank in kozhikode",
+  "model": "prisma-v2.5",
+  "processing_time": 0.08795309066772461,
+  "end_to_end_latency": 0.10739254951477051,
+  "output": {
+    "literal": "i have an account with hdfc bank in kozhikode"
+  },
+  "http_status": 200,
+  "client_latency": 0.882
+}

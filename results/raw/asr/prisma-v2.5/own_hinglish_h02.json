@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-c1fd-72e0-9ab8-9a2b56329dbe",
+  "transcript": "sir aapka emi due date next monday hai",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1487109661102295,
+  "end_to_end_latency": 0.16005349159240723,
+  "output": {
+    "literal": "sir aapka emi due date next monday hai"
+  },
+  "http_status": 200,
+  "client_latency": 1.309
+}

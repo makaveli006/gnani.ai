@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-cb52-749c-96ad-b214c158e001",
+  "transcript": "mujhe apna account balance check karna hai",
+  "model": "prisma-v2.5",
+  "processing_time": 0.1174468994140625,
+  "end_to_end_latency": 0.1260523796081543,
+  "output": {
+    "literal": "mujhe apna account balance check karna hai"
+  },
+  "http_status": 200,
+  "client_latency": 1.199
+}

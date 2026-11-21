@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc8c-04ac-775e-b7c4-a3b306e3e51f",
+  "transcript": "your otp is 4829",
+  "model": "prisma-v2.5",
+  "processing_time": 0.09225678443908691,
+  "end_to_end_latency": 0.10689449310302734,
+  "output": {
+    "literal": "your otp is four eight two nine"
+  },
+  "http_status": 200,
+  "client_latency": 0.877
+}

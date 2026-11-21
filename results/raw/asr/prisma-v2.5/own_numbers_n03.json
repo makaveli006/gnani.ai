@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-91a6-77e3-9dd9-bb8f7d5e407e",
+  "transcript": "please pay ₹1,20,00,000 by friday",
+  "model": "prisma-v2.5",
+  "processing_time": 0.07781267166137695,
+  "end_to_end_latency": 0.09655189514160156,
+  "output": {
+    "literal": "please pay one crore twenty lakh rupees by friday"
+  },
+  "http_status": 200,
+  "client_latency": 0.779
+}

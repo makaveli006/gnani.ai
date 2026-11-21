@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-a765-76a6-8160-e05737fd0d7c",
+  "transcript": "i paid ₹3,450 yesterday",
+  "model": "prisma-v2.5",
+  "processing_time": 0.11815381050109863,
+  "end_to_end_latency": 0.13592052459716797,
+  "output": {
+    "literal": "i paid three thousand four hundred and fifty rupees yesterday"
+  },
+  "http_status": 200,
+  "client_latency": 2.218
+}

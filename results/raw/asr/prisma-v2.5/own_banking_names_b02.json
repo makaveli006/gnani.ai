@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc8c-0f93-705a-94b6-0ac0bb97fc26",
+  "transcript": "my cibil score dropped after i missed an emi",
+  "model": "prisma-v2.5",
+  "processing_time": 0.07954239845275879,
+  "end_to_end_latency": 0.09397268295288086,
+  "output": {
+    "literal": "my cibil score dropped after i missed an emi"
+  },
+  "http_status": 200,
+  "client_latency": 1.098
+}

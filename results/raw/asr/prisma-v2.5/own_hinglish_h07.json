@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-d6ed-7873-85ae-bdb76188e01f",
+  "transcript": "iss month ki salary abhi tak credit nahi hui",
+  "model": "prisma-v2.5",
+  "processing_time": 0.07870912551879883,
+  "end_to_end_latency": 0.09139323234558105,
+  "output": {
+    "literal": "iss month ki salary abhi tak credit nahi hui"
+  },
+  "http_status": 200,
+  "client_latency": 0.993
+}

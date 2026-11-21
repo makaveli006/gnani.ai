@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "request_id": "01a1fc88-f1e5-747b-bad6-d1718860b148",
+  "transcript": "this is venkataraman calling from thiruvananthapuram",
+  "model": "prisma-v2.5",
+  "processing_time": 0.08873653411865234,
+  "end_to_end_latency": 0.0944211483001709,
+  "output": {
+    "literal": "this is venkataraman calling from thiruvananthapuram"
+  },
+  "http_status": 200,
+  "client_latency": 0.827
+}
